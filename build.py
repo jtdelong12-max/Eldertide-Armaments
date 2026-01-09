@@ -70,7 +70,8 @@ def pack_mod():
     try:
         print(f"Running command: {' '.join(cmd)}")
         result = subprocess.run(cmd, check=True, capture_output=True, text=True)
-        print(result.stdout)
+        if result.stdout:
+            print(result.stdout)
         print(f"\n✓ Successfully created: {OUTPUT_PATH}")
         print(f"  Size: {OUTPUT_PATH.stat().st_size / 1024:.2f} KB")
         return True
@@ -86,7 +87,7 @@ def pack_mod():
 
 def verify_structure():
     """Verify that required mod structure exists"""
-    required_paths = [MODS_DIR, PUBLIC_DIR]
+    required_paths = [MODS_DIR, PUBLIC_DIR, LOCALIZATION_DIR]
     missing = []
     
     for path in required_paths:
