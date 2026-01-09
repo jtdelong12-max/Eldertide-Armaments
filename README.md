@@ -104,7 +104,6 @@ This mod is provided as-is for the Baldur's Gate 3 community.
 
 ## Credits
 
-- Created by [YourName]
 - Built for Baldur's Gate 3 Patch 7
 - Uses LSLib by Norbyte
 
