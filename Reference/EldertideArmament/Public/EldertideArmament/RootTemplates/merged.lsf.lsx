@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children> 			
+				<node id="GameObjects"> <!-- VFX - Beam - Cataclysm Blast -->
+					<attribute id="BeamFX" type="FixedString" value="VFX_Beam_Target_Tadpole_Concentrated_Blast_01" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Damage_Force_ProjectileBeam_EldritchBlast_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Spells_Cast_Damage_Force_ProjectileBeam_EldritchBlast_Impact_Ground_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6cf9c9a0-4d96-429f-8661-0c1aa8876b7b" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- VFX - Beam - Divine Beam of Recovery -->
+					<attribute id="BeamFX" type="FixedString" value="VFX_Beam_Target_TransfuseHealth_01" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Intent_Healing_Teleportation_Impact_BodyFX_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="80ee69b0-f6d9-4e8b-8c56-bb4c3aed3151" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- VFX - Beam - Ray of the Infernal Phoenix -->
+					<attribute id="BeamFX" type="FixedString" value="VFX_Spells_Cast_Damage_Fire_MAG_Legendary_ImmolatingGaze_EyeFX_Beam_01" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Monk_Projectile_FangOfFireSnake_Impact_01" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Spells_Cast_Damage_Force_ProjectileBeam_EldritchBlast_Impact_Ground_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7828883e-ccc8-4d67-9114-50f561785815" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- VFX - Projectile - Scorching Talons of the Firehawk -->
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Projectiles_Damage_Fire_FireBolt_Impact_Ground_01" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Projectiles_Damage_Fire_FireBolt_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="35" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e516fa67-329e-482c-8992-74633142fb2e" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1.5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathRadius" type="float" value="1.5" />
+					<attribute id="PathShift" type="float" value="0.55" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ProjectilePath" type="uint8" value="1" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="Scale" type="float" value="1" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.55" />
+					<attribute id="Speed" type="float" value="35" />
+					<attribute id="TrailFX" type="FixedString" value="VFX_Projectiles_Damage_Fire_FireBolt_Projectile_01" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- VFX - Projectile - Pathfind - Scorching Talons of the Firehawk -->
+					<attribute id="MapKey" type="FixedString" value="8ce7bfa5-41e7-4929-8ef2-425bbf5c88ab" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_Spell_Pathfind" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e516fa67-329e-482c-8992-74633142fb2e" />
+					<attribute id="TrajectoryType" type="uint8" value="2" />
+				</node>
+				<node id="GameObjects"> <!-- Mystic Eldertide Cache (OBJ_ELDER_Cache) -->
+					<attribute id="MapKey" type="FixedString" value="d75d0153-d9bc-402d-a240-abe69ba108fe" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd0dc2b77ga6afg4240g826ag9196972b2500" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="ha773ddf7g0cd9g480bg97a8gc772f8f72dba" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_ElderCache" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Cache" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Cache" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />					
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="InventoryType" type="uint8" value="24" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e036eac-fc9c-4d16-9265-f71eacc9f3e9" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="83a4b4b8-eb67-1f19-b2f7-d3fc905dd39e" />
+					<attribute id="ReadinessFlags" type="uint32" value="140" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="ELDER_Cache1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Main Book -->
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Description" type="TranslatedString" handle="hbcb7c8edg8f14g442agb058g823a0ff690d8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8794182cgeff6g4feagac77g9d16947641b5" version="2" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1cbd0afe-392b-4b8b-9837-b8837b06dfa5" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Chronicles_Of_Eldertide_Book" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Chronicles_Of_Eldertide" />
+					<attribute id="ParentTemplateId" type="FixedString" value="47f778cc-b4ff-45c4-83af-e879e1ff14c3" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="2206c75f-e037-55f7-b04f-d880ca8e9c14" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Chronicles_Of_Eldertide_Book" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="e7f3dd05-d63c-9ec5-a249-29f303750742" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.1018156 0.1387698 0.1083739" />
+									<attribute id="Min" type="fvec3" value="-0.1019184 -0.01312011 -0.1083739" />
+									<attribute id="Radius" type="float" value="0.1077465" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.2036313 0.1387698 0.2167478" />
+									<attribute id="Min" type="fvec3" value="-0.2038368 -0.01312011 -0.2167478" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Labels">
+							<children>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="METATEXT" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="ACADEMIC" />
+								</node>
+								<node id="Label">
+									<attribute id="Object" type="FixedString" value="EVENTS/HISTORY" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_ChroniclesOfEldertide" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-60.59194 -11.22097 70.90082" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.4884986 0 0.8725647" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Warlock - Entry 01 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hbc782b06g11d4g4e9bg9053g2f2f21c90527" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h5ddaa7e2g777ag4febgadbfg77bdcce6ebb3" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e941460e-1f8c-4818-893f-03b932275cee" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Warlock_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Warlock_01" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Warlock_01" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Warlock_Journal_Entry_01" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Warlock - Entry 02 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h4954448cgf01bg40aeg81fbg90fb13a80525" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h18e251a4g14f9g4ac0gb9b9g8a777a993ac1" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="88db2a1e-3306-4813-b2c5-c261127011e7" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Warlock_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Warlock_02" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Warlock_02" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Warlock_Journal_Entry_02" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Warlock - Entry 03 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hab5b29a5ge500g47b1ga73cg356b4262aabb" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf210cfd5g5574g45c6g9fe9g7b016fb5ae23" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e4ba5aca-60f7-49cc-b197-f7bfbe6db9a8" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Warlock_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Warlock_03" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Warlock_03" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Warlock_Journal_Entry_03" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Paladin - Entry 01 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="haa144b07ga533g4764g9e76gbe9c08c6c72e" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hffdc8c02gb7c7g49cegbaf3g44ed444a2b7b" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="457689d1-28c2-4821-9804-5a6407d7e72e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Paladin_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Paladin_01" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Paladin_01" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Paladin_Journal_Entry_01" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Paladin - Entry 02 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h11da171cg8fd6g43ffg9060g313eedd570ed" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h7cf7fa59g4f56g4874gb015g497564676362" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a45d3de6-07cf-46d5-82db-edfb552a378e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Paladin_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Paladin_02" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Paladin_02" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Paladin_Journal_Entry_02" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Paladin - Entry 03 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h4cc23e28g01deg4e5dg809fg198bc22840d5" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h2b054cacge204g46abg95ffg314c8cf35f73" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3f22bafa-9d11-4ef3-925a-f28b215a7165" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Paladin_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Paladin_03" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Paladin_03" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Paladin_Journal_Entry_03" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Sorceress - Entry 01 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h1241b4adgdd21g41edgbabdg611caed69c73" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hf0e818c0g2738g4236gbff0gf8a417ac78f6" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4a937baf-e3cd-423b-ac6a-1d71cf756423" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Sorceress_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Sorceress_01" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Sorceress_01" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Sorceress_Journal_Entry_01" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Sorceress - Entry 02 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h436ec8fbgf400g4c43g8b31g3b8ba260e699" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h7bb50b21gfc82g4a28gadc0gb9f1a56ad0d6" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="705bdebf-a8e8-4013-aabf-5a949c5a4a0e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Sorceress_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Sorceress_02" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Sorceress_02" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Sorceress_Journal_Entry_02" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Journal - Sorceress - Entry 03 -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h12b37ef7g8e34g4f35g9920g0c7bc1b8d090" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hb83b48abg792eg4a8eg8459gc2e18fd8b73b" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="71cc35a9-90de-45af-8ee2-e112e6b2b935" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="Item_Book_Sorceress_Journal_Entry" />
+					<attribute id="Name" type="LSString" value="OBJ_ELDER_Journal_Pages_Sorceress_03" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ELDER_Journal_Pages_Sorceress_03" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59e30a7b-355e-4373-a482-678f8826774c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="98bfa516-0faa-971b-a2fd-934e92c540c8" />
+					<attribute id="VisualTemplate" type="FixedString" value="224e8aa7-8011-e18d-1a4a-ea5f83636769" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855921" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="11" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="BookId" type="FixedString" value="GEN_ELDER_Sorceress_Journal_Entry_03" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.39473 35.50131 424.6036" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2882041 -0.7064771 -0.4026579 0.505663" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 1 (ELDER_Ring_1) / Ring of Dragonkin -->
+					<attribute id="Description" type="TranslatedString" handle="hd3fc6854g8ab2g4191gb6e4g62912342da67" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd437e736g47fcg4d9dg8c25gb97bcf62b372" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfDragonkin" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="761aa984-3a34-4b21-a1ce-3adf917796ac" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>				
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 2 (ELDER_Ring_2) / Ring of Blood Oath -->
+					<attribute id="Description" type="TranslatedString" handle="h5e0535e6g77e9g4ff7g9774g0858a42a7d7e" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8b612f98g5c59g4fcagb781gc8ea7f724dee" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfBloodOath" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7b4b5661-f80c-443b-a681-ccbebd987a97" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 3 (ELDER_Ring_3) / Ring of Ethereal Phantoms -->
+					<attribute id="Description" type="TranslatedString" handle="hc7cf8a27gcea7g43bfgba89g139fc4598a1e" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1a5cc273g794bg4431gb235g5c691c8ca63d" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfEtherealPhantoms" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="faf5642a-28c2-466d-ac75-d94abeae6b76" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 4 (ELDER_Ring_4) / Ring of Dusk and Dawn -->
+					<attribute id="Description" type="TranslatedString" handle="h3e442d1cg9096g4304gb645g714557994b19" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he6645c7fgbcbdg4582gb26ag8bbce3c3201f" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfDuskAndDawn" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5d93b3ea-dd1c-4dfb-a70f-122dc472f8bf" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_4" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 5 (ELDER_Ring_5) / Sly Joker's Ring -->
+					<attribute id="Description" type="TranslatedString" handle="h72ed288fg81b7g45dfgab5egfd33d2d95b74" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5ce20789ga993g4a23g8897gd966f7d3b9b1" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_SlyJokerRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="61c2ab30-46c9-44a1-849b-7df18ccd49ef" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_5" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 6 (ELDER_Ring_6) / The Mind Ring -->
+					<attribute id="Description" type="TranslatedString" handle="hf68a8138g2d29g4bc4g8ca3g6bb69fc17d33" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h07926688gf643g47a3g9106g8f6c8b05410f" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_TheMindRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="25fe39cb-5e29-46f7-a949-c91447033aaf" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_6" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 7 (ELDER_Ring_7) / Astral Legacy Ring -->
+					<attribute id="Description" type="TranslatedString" handle="h2923021fg59cag4429g8b3bgdfa9a72093ff" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h45a37424gadb0g4362g8a14g1551dc77ef79" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_AstralLegacyRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5719879b-e593-4c55-ba30-0a616ccce9da" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_7" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 8 (ELDER_Ring_8) / Ring of Veilwalker's Hunger -->
+					<attribute id="Description" type="TranslatedString" handle="h5579fdbeg7592g4f67gbedbgebafb867475c" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hafdb08d3gc546g4b26gbebbg18fbabbe3483" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfVeilwalkersHunger" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="fe43ae60-20b7-4aeb-9a34-f8fcb54e467d" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_8" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 9 (ELDER_Ring_9) / Thunder God's Ring -->
+					<attribute id="Description" type="TranslatedString" handle="h49e61245gdb32g4c1eg9a54g20fc3599a179" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6a43a8b7g3faeg47d4g8cf7gfdc61b32e5dd" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_ThunderGodRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f1f64253-0409-4417-ad97-f91cd6a5928d" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_9" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_9" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 10 (ELDER_Ring_10) / Ring of Cryomancer's Wrath -->
+					<attribute id="Description" type="TranslatedString" handle="h8eec4aacg32acg4098gaae3g4223b17a66ab" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd0288849gb096g4125gbae6g00d7894bf0e0" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfCryomancersWrath" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="25327e35-d6ec-4cdd-8739-548a704ffd38" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_10" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_10" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 11 (ELDER_Ring_11) / Darkmaster's Cursed Legacy Ring -->
+					<attribute id="Description" type="TranslatedString" handle="ha1bded44g94feg4535g9340gfae2a7f03528" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1a8ffd32g4c88g4ce2gb21agcdea40c70981" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_DarkmastersCursedLegacyRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2f431e1c-ebd9-4e34-a6d6-74e62cbb79e7" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_11" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_11" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 12 (ELDER_Ring_12) / Ring of Mental Acuity -->
+					<attribute id="Description" type="TranslatedString" handle="h6a75d60bg3aacg41abgb43bgc4b8c92a0b3a" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd952e337gf39dg49feg9b8cgc635b1b4a263" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfMentalAcuity" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="18db8bf4-5184-4c38-a4a8-9591ac2bf66b" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_12" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_12" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Ring 13 (ELDER_Ring_13) / Ring of Blazing Hellfire -->
+					<attribute id="Description" type="TranslatedString" handle="h46129d9cgf0fbg4601gad13g75043ecd7b9f" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hde98e3f1gad51g4575gbcb2g42bf97a44c90" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_RingOfBlazingHellfire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="308e7426-0401-4fe1-a6fa-15b9cc4f4246" />
+					<attribute id="Name" type="LSString" value="ELDER_Ring_13" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81d843ad-2343-4964-b5d0-3db44dfee4e1" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Ring_13" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 1 (ELDER_Amulet_1) / Talisman of Hill Giant Strength -->
+					<attribute id="Description" type="TranslatedString" handle="h8ad42120g5b1fg40a7gbdebg21d4d4b8bfcf" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h89297193gbdcdg4fbbga5f0g745358e3f85d" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_TalismanOfHillGiantStrength" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="82d3cecf-9a9f-456b-99c6-f8d76a5a970c" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 2 (ELDER_Amulet_2) / The Lifebringer's Amulet -->
+					<attribute id="Description" type="TranslatedString" handle="hb9b7132ag3233g4d8bga1ecg95b7d83eac23" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9d64866ega009g4495ga585ga6e2fa024065" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_TheLifebringersAmulet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bfb66459-0887-412c-a470-61f12a1264d6" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 3 (ELDER_Amulet_3) / Talisman of Arcane Barrage -->
+					<attribute id="Description" type="TranslatedString" handle="h5f724a33gd083g4863g82ebg7940b6c64f19" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1184c4fdg5a4dg4d55gb2dbg6715a1b42f50" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_FirewalkerTalisman" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5084b08f-b076-4c95-806b-0c33d3b92de9" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_3" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 4 (ELDER_Amulet_4) / Talisman of Mystical Versatility -->
+					<attribute id="Description" type="TranslatedString" handle="h5907aaadg2416g4699gbbdfg67cf7fe54616" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h68c23fafgccb5g43fagba3bg7660fb25b326" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_TalismanOfMysticalVersatility" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="df3ec7f3-f511-4c18-8704-1acce5af36b9" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_4" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 5 (ELDER_Amulet_5) / Drizzt's Shadowclaw Amulet -->
+					<attribute id="Description" type="TranslatedString" handle="h62a2c1c9ge7a2g4aaag9f6fg568ed82133c6" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h039e2e7cg8b06g40ebgb425gb1c1f75f4c6d" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_DrizztsShadowclawAmulet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d9875536-5933-4330-849c-be4008d8c051" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_5" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 6 (ELDER_Amulet_6) / Amulet of the Shapeshifter -->
+					<attribute id="Description" type="TranslatedString" handle="hdd55a8f3gcb24g43c3g82dfg462233c54778" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he34f7e0dgfd6dg42b4gac40g21b94b7e423a" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_AmuletOfTheShapeshifter" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d2a937c0-4499-4d2b-932f-29a66f203aea" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_6" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 7 (ELDER_Amulet_7) / Zealot's Talisman of Devotion -->
+					<attribute id="Description" type="TranslatedString" handle="h6adc1f47g1090g427agb59bgc7b26a46f1ae" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h94c700a0gd2f6g4c5bgb6b0g17f1507971eb" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_ZealotsTalismanOfDevotion" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="caffb007-7cf9-4d84-9976-4abcf2732e1e" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_7" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 8 (ELDER_Amulet_8) / The Witcher's Medallion -->
+					<attribute id="Description" type="TranslatedString" handle="h1e90784bg5831g4737ga31dg019e17410eb2" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc8aa6f3eg874eg4f6fg95c9gc3fba3a1c83e" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_TheWitchersMedallion" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="53f192c8-c69c-46a7-b2fa-917492757c34" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_8" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_8" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- Eldertide Armament Amulet 9 (ELDER_Amulet_9) / Witch Queen Amulet -->
+					<attribute id="Description" type="TranslatedString" handle="h93f029f0g7952g4b09gb1cbga66f016f1007" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hef9da7d1g80f7g4900g9103gb57e924afc29" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_WitchQueenAmulet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d6292882-5093-4fae-97ef-d4e18bf81b2e" />
+					<attribute id="Name" type="LSString" value="ELDER_Amulet_9" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0b04c1c-afb5-4f02-b832-e12043a2d2c4" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Amulet_9" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

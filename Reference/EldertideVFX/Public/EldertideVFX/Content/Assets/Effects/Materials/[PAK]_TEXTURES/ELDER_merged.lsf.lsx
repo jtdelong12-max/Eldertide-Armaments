@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="a295039f-1c43-4d20-9891-958887814367" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_BC5_Glyph_Moonveil_01" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Textures/VFX_BC5_Glyph_Moonveil_01.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="VFX_BC5_Glyph_Moonveil_01" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="8" />
+					<attribute id="ID" type="FixedString" value="e0d7220d-c4e4-4953-9942-88425c2249eb" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_BC6H_GM_Color_MoonLight" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Textures/VFX_BC6H_GM_Color_MoonLight.DDS" />
+					<attribute id="Streaming" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="VFX_BC6H_GM_Color_MoonLight" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="512" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855901" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="8" />
+					<attribute id="ID" type="FixedString" value="cea61f6a-76a9-40ad-802d-20bcb44705a1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_BC6H_GM_Color_ELDER_New_Cleric" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Textures/VFX_BC6H_GM_Color_ELDER_New_Cleric.DDS" />
+					<attribute id="Streaming" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="VFX_BC6H_GM_Color_ELDER_New_Cleric" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="512" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855901" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
