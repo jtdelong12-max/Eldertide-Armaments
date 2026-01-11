@@ -62,8 +62,8 @@ def latest_source_mtime(threshold=None):
                     mtime = (Path(root) / file).stat().st_mtime
                 except FileNotFoundError:
                     continue
-                if threshold and mtime > threshold:
-                    return mtime
+                if threshold is not None and mtime > threshold:
+                    return threshold + 1
                 if mtime > latest:
                     latest = mtime
     return latest
@@ -80,7 +80,7 @@ def pack_mod():
     if OUTPUT_PATH.exists():
         output_mtime = OUTPUT_PATH.stat().st_mtime
         latest_source_time = latest_source_mtime(threshold=output_mtime)
-        if latest_source_time and output_mtime >= latest_source_time:
+        if latest_source_time > 0 and output_mtime >= latest_source_time:
             print(f"Skipping repack: {OUTPUT_PATH.name} is already up to date.")
             return True
     
