@@ -50,7 +50,7 @@ def create_output_dir():
     print(f"Output directory: {output_dir}")
 
 
-def latest_source_mtime():
+def latest_source_mtime(threshold=None):
     """Return the newest modified time across package directories"""
     latest = 0
     for path in PACKAGE_DIRS:
@@ -62,6 +62,8 @@ def latest_source_mtime():
                     mtime = (Path(root) / file).stat().st_mtime
                 except FileNotFoundError:
                     continue
+                if threshold and mtime > threshold:
+                    return mtime
                 if mtime > latest:
                     latest = mtime
     return latest
@@ -76,8 +78,9 @@ def pack_mod():
     
     # Skip repack if sources haven't changed
     if OUTPUT_PATH.exists():
-        latest_source_time = latest_source_mtime()
-        if latest_source_time and OUTPUT_PATH.stat().st_mtime >= latest_source_time:
+        output_mtime = OUTPUT_PATH.stat().st_mtime
+        latest_source_time = latest_source_mtime(threshold=output_mtime)
+        if latest_source_time and output_mtime >= latest_source_time:
             print(f"Skipping repack: {OUTPUT_PATH.name} is already up to date.")
             return True
     
