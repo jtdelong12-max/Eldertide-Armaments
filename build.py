@@ -4,6 +4,7 @@ Build script for Eldertide Armaments BG3 Mod
 Packs mod files into a .pak archive for Baldur's Gate 3
 """
 
+import errno
 import os
 import sys
 import subprocess
@@ -14,6 +15,7 @@ from pathlib import Path
 MOD_NAME = "EldertideArmaments"
 VERSION = "1.0.0"
 OUTPUT_DIR = "dist"
+OUTPUT_DIR_NAME = Path(OUTPUT_DIR).name
 
 # Paths
 ROOT_DIR = Path(__file__).parent
@@ -21,12 +23,20 @@ MODS_DIR = ROOT_DIR / "Mods" / MOD_NAME
 PUBLIC_DIR = ROOT_DIR / "Public" / MOD_NAME
 LOCALIZATION_DIR = ROOT_DIR / "Localization"
 OUTPUT_PATH = ROOT_DIR / OUTPUT_DIR / f"{MOD_NAME}.pak"
-PACKAGE_DIRS = [
-    MODS_DIR,
-    PUBLIC_DIR,
-    LOCALIZATION_DIR,
-    ROOT_DIR / "EldertideVFX",
-]
+IGNORED_DIRS = {".git", "__pycache__", ".vscode", OUTPUT_DIR_NAME}
+
+def optional_vfx_dir():
+    """Return the optional VFX directory when it exists."""
+    path = ROOT_DIR / "EldertideVFX"
+    return path if path.exists() else None
+
+def package_dirs():
+    """Return package directories, including optional VFX assets when present."""
+    paths = [MODS_DIR, PUBLIC_DIR, LOCALIZATION_DIR]
+    vfx_dir = optional_vfx_dir()
+    if vfx_dir:
+        paths.append(vfx_dir)
+    return paths
 
 # Divine CLI tool path (update this to your Divine.exe location)
 # Download from https://github.com/Norbyte/lslib/releases
@@ -50,39 +60,39 @@ def create_output_dir():
     print(f"Output directory: {output_dir}")
 
 
-def latest_source_mtime(threshold=None):
-    """Return the newest modified time across package directories"""
-    latest = 0
-    for path in PACKAGE_DIRS:
+def sources_are_older_than_output(output_mtime):
+    """Return True when sources exist and none are newer than the current output."""
+    for path in package_dirs():
         if not path.exists():
             continue
-        for root, _, files in os.walk(path):
+        for root, dirs, files in os.walk(path):
+            # Prevent os.walk from descending into ignored directories
+            dirs[:] = [d for d in dirs if d not in IGNORED_DIRS]
+            root_path = Path(root)
             for file in files:
                 try:
-                    mtime = (Path(root) / file).stat().st_mtime
-                except FileNotFoundError:
-                    continue
-                if threshold is not None and mtime > threshold:
-                    return threshold + 1
-                if mtime > latest:
-                    latest = mtime
-    return latest
+                    mtime = (root_path / file).stat().st_mtime
+                except OSError as exc:
+                    if exc.errno == errno.ENOENT:
+                        continue
+                    raise
+                if mtime > output_mtime:
+                    return False
+    return True
 
 
 def pack_mod():
     """Pack the mod files into a .pak archive"""
-    print(f"Packing {MOD_NAME} v{VERSION}...")
-    
-    # Ensure output directory exists
-    create_output_dir()
-    
-    # Skip repack if sources haven't changed
     if OUTPUT_PATH.exists():
         output_mtime = OUTPUT_PATH.stat().st_mtime
-        latest_source_time = latest_source_mtime(threshold=output_mtime)
-        if latest_source_time > 0 and output_mtime >= latest_source_time:
+        if sources_are_older_than_output(output_mtime):
             print(f"Skipping repack: {OUTPUT_PATH.name} is already up to date.")
             return True
+
+    print(f"Packing {MOD_NAME} v{VERSION}...")
+
+    # Ensure output directory exists
+    create_output_dir()
     
     # Remove old .pak file if it exists
     if OUTPUT_PATH.exists():
