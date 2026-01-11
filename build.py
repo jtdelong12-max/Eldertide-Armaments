@@ -15,7 +15,6 @@ from pathlib import Path
 MOD_NAME = "EldertideArmaments"
 VERSION = "1.0.0"
 OUTPUT_DIR = "dist"
-OUTPUT_DIR_NAME = Path(OUTPUT_DIR).name
 
 # Paths
 ROOT_DIR = Path(__file__).parent
@@ -23,20 +22,13 @@ MODS_DIR = ROOT_DIR / "Mods" / MOD_NAME
 PUBLIC_DIR = ROOT_DIR / "Public" / MOD_NAME
 LOCALIZATION_DIR = ROOT_DIR / "Localization"
 OUTPUT_PATH = ROOT_DIR / OUTPUT_DIR / f"{MOD_NAME}.pak"
-IGNORED_DIRS = {".git", "__pycache__", ".vscode", OUTPUT_DIR_NAME}
+IGNORED_DIRS = {".git", "__pycache__", ".vscode", OUTPUT_DIR}
 
-def optional_vfx_dir():
-    """Return the optional VFX directory when it exists."""
-    path = ROOT_DIR / "EldertideVFX"
-    return path if path.exists() else None
-
-def package_dirs():
-    """Return package directories, including optional VFX assets when present."""
-    paths = [MODS_DIR, PUBLIC_DIR, LOCALIZATION_DIR]
-    vfx_dir = optional_vfx_dir()
-    if vfx_dir:
-        paths.append(vfx_dir)
-    return paths
+# Calculate package directories once at module initialization
+VFX_DIR = ROOT_DIR / "EldertideVFX"
+PACKAGE_DIRS = [MODS_DIR, PUBLIC_DIR, LOCALIZATION_DIR]
+if VFX_DIR.exists():
+    PACKAGE_DIRS.append(VFX_DIR)
 
 # Divine CLI tool path (update this to your Divine.exe location)
 # Download from https://github.com/Norbyte/lslib/releases
@@ -53,25 +45,26 @@ def check_divine():
     return True
 
 
-def create_output_dir():
-    """Create output directory if it doesn't exist"""
+def ensure_output_dir():
+    """Ensure output directory exists"""
     output_dir = ROOT_DIR / OUTPUT_DIR
-    output_dir.mkdir(exist_ok=True)
-    print(f"Output directory: {output_dir}")
+    if not output_dir.exists():
+        output_dir.mkdir(exist_ok=True)
+        print(f"Created output directory: {output_dir}")
 
 
 def sources_are_older_than_output(output_mtime):
     """Return True when sources exist and none are newer than the current output."""
-    for path in package_dirs():
+    for path in PACKAGE_DIRS:
         if not path.exists():
             continue
         for root, dirs, files in os.walk(path):
             # Prevent os.walk from descending into ignored directories
             dirs[:] = [d for d in dirs if d not in IGNORED_DIRS]
-            root_path = Path(root)
             for file in files:
                 try:
-                    mtime = (root_path / file).stat().st_mtime
+                    filepath = os.path.join(root, file)
+                    mtime = os.stat(filepath).st_mtime
                 except OSError as exc:
                     if exc.errno == errno.ENOENT:
                         continue
@@ -88,16 +81,14 @@ def pack_mod():
         if sources_are_older_than_output(output_mtime):
             print(f"Skipping repack: {OUTPUT_PATH.name} is already up to date.")
             return True
+        # Remove old .pak file since we need to rebuild
+        OUTPUT_PATH.unlink()
+        print(f"Removed old {OUTPUT_PATH.name}")
 
     print(f"Packing {MOD_NAME} v{VERSION}...")
 
     # Ensure output directory exists
-    create_output_dir()
-    
-    # Remove old .pak file if it exists
-    if OUTPUT_PATH.exists():
-        OUTPUT_PATH.unlink()
-        print(f"Removed old {OUTPUT_PATH.name}")
+    ensure_output_dir()
     
     # Build the Divine command
     # Divine.exe -g bg3 -a create-package -s <source_dir> -d <output.pak>
@@ -121,10 +112,6 @@ def pack_mod():
     except subprocess.CalledProcessError as e:
         print(f"ERROR: Failed to pack mod")
         print(f"  {e.stderr}")
-        return False
-    except FileNotFoundError:
-        print(f"ERROR: Divine tool not found at '{DIVINE_PATH}'")
-        print("Please install LSLib and update the DIVINE_PATH variable.")
         return False
 
 
