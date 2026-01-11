@@ -21,6 +21,12 @@ MODS_DIR = ROOT_DIR / "Mods" / MOD_NAME
 PUBLIC_DIR = ROOT_DIR / "Public" / MOD_NAME
 LOCALIZATION_DIR = ROOT_DIR / "Localization"
 OUTPUT_PATH = ROOT_DIR / OUTPUT_DIR / f"{MOD_NAME}.pak"
+PACKAGE_DIRS = [
+    MODS_DIR,
+    PUBLIC_DIR,
+    LOCALIZATION_DIR,
+    ROOT_DIR / "EldertideVFX",
+]
 
 # Divine CLI tool path (update this to your Divine.exe location)
 # Download from https://github.com/Norbyte/lslib/releases
@@ -44,12 +50,36 @@ def create_output_dir():
     print(f"Output directory: {output_dir}")
 
 
+def latest_source_mtime():
+    """Return the newest modified time across package directories"""
+    latest = 0
+    for path in PACKAGE_DIRS:
+        if not path.exists():
+            continue
+        for root, _, files in os.walk(path):
+            for file in files:
+                try:
+                    mtime = (Path(root) / file).stat().st_mtime
+                except FileNotFoundError:
+                    continue
+                if mtime > latest:
+                    latest = mtime
+    return latest
+
+
 def pack_mod():
     """Pack the mod files into a .pak archive"""
     print(f"Packing {MOD_NAME} v{VERSION}...")
     
     # Ensure output directory exists
     create_output_dir()
+    
+    # Skip repack if sources haven't changed
+    if OUTPUT_PATH.exists():
+        latest_source_time = latest_source_mtime()
+        if latest_source_time and OUTPUT_PATH.stat().st_mtime >= latest_source_time:
+            print(f"Skipping repack: {OUTPUT_PATH.name} is already up to date.")
+            return True
     
     # Remove old .pak file if it exists
     if OUTPUT_PATH.exists():
