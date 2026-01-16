@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> <!-- Land of the Dead -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6e362902g3edbg4b76g91ddg3bdc7d3144ed" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1bfecf1e-6e33-48c5-a558-7f6c0edb85c6" />
+					<attribute id="Name" type="LSString" value="LandOfTheDead_InvisibleHelper" />
+					<attribute id="ParentTemplateId" type="FixedString" value="09e375ca-21cb-4c29-9c0a-2346f00fb2f2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
+				</node>
+				<node id="GameObjects"> <!-- KATANA - Moonveil -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hdd8fbf9bgac12g40abg91d9g318120fb76d2" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0a59e012g2992g40e4gae06gdffeac60dc19" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="dcc1878c-61e6-4dbf-a354-f713a4657cec" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Katana_Moonveil" />
+					<attribute id="ParentTemplateId" type="FixedString" value="344ac552-11ff-4150-8bb4-7eed8fb78588" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="055d2b80-e866-e75c-358f-0657933137d9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Moonveil" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.212115" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="AfroLongHair" />
+								<node id="AfroShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="DreadLongHair" />
+								<node id="DreadShortHair" />
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+								<node id="WavyLongHair" />
+								<node id="WavyShortHair" />
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MOONVEIL_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- LONGSWORDS - Excalibur -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h637a2885gbfb9g4324gbdc5g45930e2aa752" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hdb187b5dga32eg46deg8044g253bd538ec50" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_Deathknight" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="83135535-20e6-4f49-96ee-d2e0cd4d62fa" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Excalibur" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a4338d7c-5b70-4076-9711-d3803fab2e1b" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Excalibur" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CROWN_OF_JUSTICE_WEAPON" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- GREATSWORD - Aetherius -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hd15ab578g3394g4d70g987agb4bdc4035fbb" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h26afe4f1ga5b7g4f33g839fg9b77a126cf76" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5ef1c996-2b53-4c7c-99e3-07bd2fb95cfd" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Aetherius" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81a83529-5bb6-4c72-b1af-6fc8f45c5706" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Aetherius" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- HAND CROSSBOW - Wrath of Asmodeus -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hbe66b582gf7e7g4adegab9cg7d397884a3ac" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h53e4ac58gb6f1g4c09ga166g3321ba3fc859" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_HandCrossbow_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7fbe64c1-c4d0-430a-a8dc-22b030e0b11e" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_WrathOfAsmodeus" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ab150a98-0a8e-4ee2-9dca-580d77f99be3" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_WrathOfAsmodeus" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4f23190-f0a0-2bdd-7e11-3e6432cea576" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_WEAPON_OVERLAY" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- SHORTBOW - Wildheart -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h2e6dee04g31d3g495bgbc50g83625bfb353e" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="ha66a3516g6d4dg45f4g9c2fgbc514c0957fa" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortbow_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c7610d7d-45bb-464b-80bd-5229502ca1a8" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Wildheart" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Wildheart" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="b33f59eb-df05-560a-8ae8-7721627d6a3a" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WILDHEART_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- SCIMITAR - The Dreamweaver -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hd04ef05bg76b1g41fdgbabaga876cd7b6fd6" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h1dfb00f1g3e2fg49fdgaec9gd0809cdc5594" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_TheClover_Scimitar" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e3d0b912-b29f-4101-979b-cded7196fecf" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_TheDreamweaver" />
+					<attribute id="ParentTemplateId" type="FixedString" value="517231eb-e812-43ed-9ce3-482ba7ed31e6" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_TheDreamweaver" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="669e8a9a-0b50-81b7-8b1f-a7527bc66e8f" />
+					<attribute id="VisualTemplate" type="FixedString" value="9b9763fc-50a2-5d32-de45-3e0765f11ae7" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- SPEAR - Eladrin Reach -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h47656755gde52g401eg82efg538306495437" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="he486cbd2g55ccg490ag8bb6g06f5dcc3ad86" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="cb322434-365d-47bf-8357-e2f202dfb129" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Spear_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5928621b-e84f-4318-afb5-50e4d0bd1f68" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_EladrinReach" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9f0f1c0e-012d-44e1-9b29-86c64d2bf675" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0f8c391a-5295-2e21-6faf-aed27b1f660c" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_EladrinReach" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="96c75dfb-7cce-3041-89cd-3a96b80db8ef" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_THROWING_RETURN_TO_OWNER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- WARHAMMER - Ridgebreaker -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3a3ddc28g2423g4a9bgb00fg32f9899ab6e5" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h885ef0b2gbee3g460fgb508g4f8b9b98708b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_WarHammer_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d9bb708d-6acf-4c46-ab6d-eb3e1797b871" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Ridgebreaker" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e6b027a7-40bb-445e-b199-38b08d2b4832" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Ridgebreaker" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="1401cf40-c805-d585-23b4-f5f4c331ff84" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_THROWING_RETURN_TO_OWNER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- DAGGER - Bloodmoon Fang -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hd5ebbef3g00d5g4976g9009g659d54ac4b6f" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="ha35e4f54g2692g4867gaab8gc002f44d7f9d" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_A_1" />
+					<attribute id="MapKey" type="FixedString" value="8b152baf-7830-4198-bc01-f4f20731922c" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_BloodmoonFang" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_BloodmoonFang" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="18a6ae23-9d63-0f7c-1ebf-a7abcfd3b0ba" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- QUARTERSTAFF - Judgment of Anubis -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h35603ca3gdf05g4b3eg8487g531d270bb25b" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h306f7f12g8603g4c9ag9aa2g12055468e9f3" version="1" />
+					<attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Magicstaff_Lorroakan_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="657f4ad9-c47b-4026-bfd3-b25dea7957c5" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_JudgmentOfAnubis" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e1e112b2-5465-4e37-acdc-372666ec1521" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="9756a601-06cd-0887-b602-c7b48b73b339" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_JudgmentOfAnubis" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="bd1906a0-6e30-b491-f488-f8fa1645fa5b" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- RAPIER - Righteous Avenger -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6894bc51g350eg4517gbab1g0104f47f7c8e" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h18c42b73g3493g4823ga2e5g3789df45dab9" version="3" />
+					<attribute id="EquipmentTypeID" type="guid" value="4d500520-1818-4a5e-83b9-324957e22969" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Rapier_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="48fa930e-82f9-4d4d-8205-848f52cea2b3" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_RighteousAvenger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7061f489-4b13-4982-aa09-cf0ad961e75f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f71a9045-983a-d528-2970-18b6c647e00b" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_RighteousAvenger" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="c73e3532-d9f1-6543-fa4e-2e57db45ed9b" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.0607784 0.06996019 0.2115099" />
+									<attribute id="Min" type="fvec3" value="-0.07832382 -0.05088259 -0.988086" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.060538 0.090254 0.198778" />
+									<attribute id="Min" type="fvec3" value="-0.096609 -0.050008 -0.988086" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.030269 0.090254 0.099389" />
+									<attribute id="Min" type="fvec3" value="-0.0483045 -0.050008 -0.494043" />
+									<attribute id="Radius" type="float" value="0.212115" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- KATANA - Demon's Ruin -->
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hac7b6792ge429g4293g8862g394a0cc09120" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="ha7b06fb2g6b77g43a8gb570g80c095d0c72b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="adee2f74-4ffb-4a22-83c9-87180a612b77" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Katana_DemonsRuin" />
+					<attribute id="ParentTemplateId" type="FixedString" value="344ac552-11ff-4150-8bb4-7eed8fb78588" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="055d2b80-e866-e75c-358f-0657933137d9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="ShootThroughType" type="int8" value="6" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_DemonsRuin" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.212115" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.05024404 0.06694297 0.2622833" />
+									<attribute id="Min" type="fvec3" value="-0.06093429 -0.03287733 -1.288695" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Equipment">
+							<attribute id="EquipmentSlots" type="uint32" value="0" />
+							<children>
+								<node id="AfroLongHair" />
+								<node id="AfroShortHair" />
+								<node id="CurlyLongHair" />
+								<node id="CurlyShortHair" />
+								<node id="DreadLongHair" />
+								<node id="DreadShortHair" />
+								<node id="LongHair" />
+								<node id="ParentRace" />
+								<node id="ShortHair" />
+								<node id="Visuals" />
+								<node id="WavyLongHair" />
+								<node id="WavyShortHair" />
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DEMONSRUIN_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- SHORTSWORD - Shadow of Morpheus -->
+					<attribute id="DisplayName" type="TranslatedString" handle="he27eea71gb6e0g4e69gbb9fge29f7cc60743" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="haa8490a6g3318g4027g898fg6587113a44ea" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortsword_A_2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2b5243b8-658e-4ff2-bccf-0f39e5c53f3e" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Shortsword_ShadowOfMorpheus" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0839fb15-24ab-4c3a-b168-413a47ed710a" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_ShadowOfMorpheus" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8aeed6ef-b673-2a11-69ee-ccbae48cdf94" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SHADOW_OF_MORPHEUS_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- LONGSWORD - Dawnblade -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hce90837eg485fg4704gbdddg8b79210ebcd5" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h9e93e366gc3ccg4234g88c5g6798354e9b4c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_A_1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5781c045-6967-4cb5-97c5-8fd3326a78f0" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Longsword_Dawnblade" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_Dawnblade" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="d801f19a-3a89-693a-fc9b-da2a0bfe9ad2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DAWNBLADE_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> <!-- LONGBOW - Celestial Huntress -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hdfef5c02g8157g4c7ag8ae7g89e0d2d30714" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3b5db4bag6685g44b8g911bg50ee38ca6ff8" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_TheVictory_Longbow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="271bc2de-40e3-4fd4-8beb-fb5917a19df8" />
+					<attribute id="Name" type="LSString" value="ELDER_WPN_Longbow_CelestialHuntress" />
+					<attribute id="ParentTemplateId" type="FixedString" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
+					<attribute id="Stats" type="FixedString" value="ELDER_Weapon_CelestialHuntress" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8b7d3023-71a1-1122-69f0-f15d3f9232c8" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CELESTIAL_HUNTRESS_VFX" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

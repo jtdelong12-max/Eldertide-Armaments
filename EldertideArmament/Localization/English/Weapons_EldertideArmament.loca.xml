@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hce90837eg485fg4704gbdddg8b79210ebcd5" version="1">Dawnblade</content>
+	<content contentuid="h9e93e366gc3ccg4234g88c5g6798354e9b4c" version="1">An ethereal sword, forged with celestial fire and wielded by the elite disciples of solar mastery, its edges ablaze with the unfettered fury of dawn's embrace.</content>
+	<content contentuid="hb8d8c415g688bg43efg83dbg2a531e2bd3f7" version="1">Solaris' Embrace</content>
+	<content contentuid="ha293105cgc7bag447dg8b78gb49a3492afef" version="1">Deals an additional [1] if the target is not standing in sunlight.</content>
+	<content contentuid="h27320fe9g1341g49f9ga5a6g7b03c259442e" version="1">Dawnblade Status VFX</content>
+	<content contentuid="h1e85eacdg7ceag4252g8187g210d45d04345" version="1">%%%|Hidden. Dawnblade Status|</content>
+	<content contentuid="h58e99c6bgdb7fg46c0gb43ag3f89a3a6bcdf" version="1">Dawnblade Hit VFX</content>
+	<content contentuid="hfa1f18cfg7b53g44a4gbf6fg466390800484" version="1">%%%|Hidden. Dawnblade VFX Passive|</content>
+	<content contentuid="hef4b9ac1g30c2g4224ga749gd08eb7a3a514" version="1">Dawn Strike</content>
+	<content contentuid="h12738bccge82eg49d8g94begc63f38fb0860" version="1">Deal additional Radiant damage equal to your Proficiency Bonus. On a hit, light erupts around you in a [1] area. Enemies in the light must succeed a DC 13 Constitution Saving Throw or be Blinded.</content>
+
+	<content contentuid="hdfef5c02g8157g4c7ag8ae7g89e0d2d30714" version="1">Celestial Huntress</content>
+	<content contentuid="h3b5db4bag6685g44b8g911bg50ee38ca6ff8" version="1">A celestial bow, that echoes tales of gods and heavenly realms. Each arrow released from this bow seems blessed by divine favor, soaring with precision and power to strike down foes in the name of the divine.</content>
+	<content contentuid="h05fb60a2g6630g4fcag92ecg512baa552976" version="1">Olympian Ward</content>
+	<content contentuid="h6be51229g6d2bg4a35gb841g872718a0166a" version="1">Embraced by the divine, gain a +[1] bonus to Saving Throws against spells.</content>
+	<content contentuid="h6c109a72g2f71g4c77gb093g299e06930bb5" version="1">Celestial Huntress Status VFX</content>
+	<content contentuid="hfca51e17g6602g4e90ga4ebg5e029f215b7f" version="1">%%%|Hidden. Celestial Huntress Status|</content>
+	<content contentuid="hfba3deecg24b9g49acg822eg601142fa3a65" version="1">Bolt of Explosive Force</content>
+	<content contentuid="hd43ba0b9gabd8g4f01g948dgc9aaa08ce04f" version="5">Unleash a charged projectile that inflicts [1] upon impact and triggers a [3] radius explosion, dealing [2] to anyone within its range.</content>
+	<content contentuid="h1d511260gde5cg437fg9f86g149aa14f6034" version="2">Explosive Force</content>
+	<content contentuid="h36420324g8008g4478g8d62g3751bc389551" version="2">Triggers a [2] radius explosion that deals [1].</content>
+	<content contentuid="h745612dcgb2b9g4501g89ddg9530eb579013" version="1">Godstrike</content>
+	<content contentuid="ha5270ba7g1addg4fcbg92b8g21e66123489b" version="1">Channel the divine might within to unleash three devastating beams, each imbued with divine wrath and capable of dealing [1].</content>
+	
+	<content contentuid="hac7b6792ge429g4293g8862g394a0cc09120" version="1">Demon's Ruin</content>
+	<content contentuid="ha7b06fb2g6b77g43a8gb570g80c095d0c72b" version="1">A fabled relic passed down through generations, said to instill fear even in the mightiest of infernal beings with its very presence.</content>
+	<content contentuid="hab072389gd6aeg45b9ga83eg23fe43c701b0" version="1">Sworn Nemesis</content>
+	<content contentuid="h0da0ec23g9d5eg4bf6gb038g72adf666fb5c" version="1">Gains a +1d4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when attacking undead and fiends.</content>
+	<content contentuid="h73c054cdg90d1g416dg8897g8f59289ffb86" version="1">Demon's Ruin</content>
+	<content contentuid="h01189543g1cb8g49bag890eg4bc1debf277d" version="1">%%%|Hidden. Demon's Ruin Status|</content>
+	<content contentuid="h60c1a058g634fg4f21gb0b3g5ecb3fe4be22" version="1">Demon's Ruin</content>
+	<content contentuid="h75323befg6704g4753g9d68gab23e2614f83" version="1">%%%|Hidden. Demon's Ruin VFX Passive|</content>
+	<content contentuid="h60d11b58g4352g45c1gbceagad04717ad1ee" version="1">Izanagi's Retribution</content>
+	<content contentuid="ha5d4d7c8g2062g4d4dg8d85ge6bd293f4e69" version="1">When a Fiend or Undead attacks you, you can use your reaction to retaliate with a powerful melee attack that deals [1] and [2].</content>
+	<content contentuid="h47beab64g090fg498dg83f2g44994bd85630" version="1">Izanagi's Retribution</content>
+	<content contentuid="h571e9a1agfffdg4103gab0cg8321ff78d451" version="1">If a Fiend or Undead attacks you, you can retaliate with a powerful melee attack.</content>
+	<content contentuid="h5df7757cgda94g45a5g8b85g8d9daec10f6b" version="1">Izanagi's Retribution</content>
+	<content contentuid="h832f34e8g611eg43d3g9875g39e5bc191841" version="1">Retaliate with a formidable strike when Fiend or Undead attacks you with a melee attack.</content>
+	<content contentuid="hc7a71cc0gbc4ag4299gb2f7g4d6503b5212c" version="1">Yokai's Bind</content>
+	<content contentuid="ha0d4b71cgbc6bg48b7gb188g077f4b00312c" version="1">Pulls the target creature [1] closer to you. When cast against Undead or Fiends, they suffer an additional [2] and are &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
+	<content contentuid="ha2e3fda9g052bg4678g99b0g8aa558109e79" version="2">Undead/Fiend</content>
+	<content contentuid="hcaf0b58dg5f70g429dgb568g424e6f12e3e2" version="1">Martial Reckoning</content>
+	<content contentuid="hb23b3636g3279g42beg9abfg1dbf3c4bcd2d" version="1">Martial Reckoning: 2</content>
+	<content contentuid="h4f0c2176gb71cg40dfg8718g9d9ec1ffc91c" version="1">Martial Reckoning: 3</content>
+	<content contentuid="h93fcb7d4g2493g4565g91dagdfe102e0f732" version="1">With each defeated foe, gain a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;, can stack up to	a maximum of +[2].</content>
+	<content contentuid="he32bb3c3gb678g40c4gb54cg901455fe3ed7" version="1">%%%|Hidden. Martial Reckoning Apply VFX|</content>
+	<content contentuid="h062e6c11g4c16g4c91gb2c8g3b5ee82be8df" version="1">Martial Reckoning Technical</content>
+	<content contentuid="h661123bcg1a36g4b52g9f5egf4aa705f8e38" version="1">%%%|Hidden. Martial Reckoning Technical|</content>
+	<content contentuid="h5208dc57g28eag478fg9719g5eae30e847d2" version="1">Martial Reckoning</content>
+	<content contentuid="h13663bf4gc115g4afdgbbd2g17198b2e017a" version="1">The affected entity gains a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="h0aa5f782g11c7g4088gb058gaab13fb18506" version="1">Martial Reckoning: Empower</content>
+	<content contentuid="h8628a8fcg3f6dg4543ga8fagdf8922c640e0" version="1">Unleash the stored might of your Martial Reckoning, expending all your three &lt;LSTag Type="Status" Tooltip="MARTIAL_RECKONING_3"&gt;Martial Reckoning&lt;/LSTag&gt; charges to empower yourself in combat.</content>
+	<content contentuid="hfb23ddc7g7facg41edgb5a1ga97ee1d8b1c7" version="1">Martial Reckoning: Healing</content>
+	<content contentuid="h2bc78941ge325g4365g9a5eg51cd9db5f8c3" version="1">Expend your three &lt;LSTag Type="Status" Tooltip="MARTIAL_RECKONING_3"&gt;Martial Reckoning&lt;/LSTag&gt; charges to regain [1].</content>
+	<content contentuid="hc799a2d2gf8ebg4eadgbfd2gde9e970c1cf4" version="1">Martial Reckoning: Critical</content>
+	<content contentuid="hca17c217gb8cag4f75gbc78g6c759a48e31a" version="1">Expend your three &lt;LSTag Type="Status" Tooltip="MARTIAL_RECKONING_3"&gt;Martial Reckoning&lt;/LSTag&gt; charges to make your next attack a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h7bbb1c32ge391g4624g83a3gc8d527496adb" version="1">Martial Reckoning: Critical</content>
+	<content contentuid="h86d500c7g2aa2g4ec6g985bg70d6d9d0cb33" version="1">Your next weapon attack is guaranteed to Critically Hit.</content>
+	<content contentuid="ha0200ffbg4e24g4213ga96cg5fe5ad8c6726" version="1">Martial Reckoning: Explosion</content>
+	<content contentuid="h09523adeg4487g4d48ga74fg313bbf31a471" version="1">Expend your three &lt;LSTag Type="Status" Tooltip="MARTIAL_RECKONING_3"&gt;Martial Reckoning&lt;/LSTag&gt; charges to create a [1] radius explosion at your location, capable of dealing [2].</content>
+	<content contentuid="hbd67ee98gd5aag44fcgae2cg49a729de26e2" version="1">Martial Reckoning: Explosion</content>
+	<content contentuid="h4330c258gb8e3g44aegb129g22f6706e616a" version="1">Creates a [1] radius explosion, capable of dealing [2].</content>
+
+	<content contentuid="he27eea71gb6e0g4e69gbb9fge29f7cc60743" version="1">Shadow of Morpheus</content>
+	<content contentuid="haa8490a6g3318g4027g898fg6587113a44ea" version="1">A blade wrought in darkness, wielding shadow's might with uncanny precision.</content>
+	<content contentuid="hb163861ag6020g488fg9e9agac2103b77829" version="1">Shadow Sight</content>
+	<content contentuid="h9ada4263g9793g4ab3gbaa7g977d270c8a00" version="1">You can see in magical and ordinary darkness up to a range of [1].</content>
+	<content contentuid="he66e9052g0559g49e9ga6aag83302a4cfde2" version="1">Shadow of Morpheus</content>
+	<content contentuid="h3e8b8ef1g5276g49c5g85d2gb0d370a2840d" version="1">%%%|Hidden. Shadow of Morpheus Status|</content>
+	<content contentuid="h16c0999eg190bg444fgb3adg86d41f420e64" version="1">Phantom strike</content>
+	<content contentuid="hccb9f445gdb31g4d5bg8549g7ab63188171b" version="1">Unleash a swift, shadow-infused melee strike, dealing [1] + [2]. After the attack, you phase into the &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;shadows&lt;/LSTag&gt;.</content>
+	<content contentuid="hf49399abgb41eg41cdgb428ge8f54e8e5821" version="1">Darkness Stride</content>
+	<content contentuid="he65ece4bg88bdg4da6gbbb2g3062d2a66975" version="1">Instantly teleport between shadows, gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; afterward.</content>
+	<content contentuid="h36e86393geecfg4cc9g98e8g4bd09c2a66b1" version="1">Darkness Stride</content>
+	<content contentuid="he34db938g485eg4317g8b30g21ac55ae1785" version="1">The affected entity gains &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on its next melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h6894bc51g350eg4517gbab1g0104f47f7c8e" version="2">Righteous Avenger</content>
+	<content contentuid="h18c42b73g3493g4823ga2e5g3789df45dab9" version="3">A commander's steel, gleaming with authority, each strike bears the weight of unwavering justice, commanding the battlefield with dignified presence and guiding the course of battle.</content>
+	<content contentuid="h79a39300g2b0cg4f58g8d0fg6f7d11af53f7" version="1">Bleeding Edge</content>
+	<content contentuid="hbed0b6e2g1b07g4484gbbd2g4d1966344a6c" version="1">Your every strike carries the potential to draw blood, Possibly inflict Bleeding when you attack (DC13).</content>
+	<content contentuid="hc59395f0g3918g437dga2dagcbb0542c8290" version="1">Mythical Execution</content>
+	<content contentuid="hdea66e1eg4d58g46a1g903eg5ef2773b60d4" version="1">Upon delivering the finishing blow, allies within a [1] radius gain temporary hit points equal to your Charisma Modifier (minimum 1).</content>
+	<content contentuid="hdc57baf1ga45eg4a01gb360gdca736dd7558" version="1">Commander's Decree</content>
+	<content contentuid="h37cc13a5g5ec2g4c53gb938gae95865d0e4d" version="1">Unleash a disciplined and commanding strike. Enemies hit by this attack experience a reduction in their combat effectiveness.</content>
+	<content contentuid="h7d573dcag40bcg4db5ga6e0gc97fb521bf98" version="1">Faltering Resolve</content>
+	<content contentuid="head60b34g02efg46e9gbf0dgb2ed5459ed4e" version="1">The affected target's strikes become less accurate, and its defenses weaken. Suffering a -[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;, and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h35603ca3gdf05g4b3eg8487g531d270bb25b" version="2">Judgment of Anubis</content>
+	<content contentuid="h306f7f12g8603g4c9ag9aa2g12055468e9f3" version="1">A sacred staff bearing the weight of anubis judgment, delivering retribution to the righteous and the condemned</content>
+	<content contentuid="he5973c1agc096g45afgbd6bg7ce90067535e" version="1">Necrotic Power</content>
+	<content contentuid="h8434489eg4abcg4baeg88e1gf9e0c737487d" version="1">While in combat, you deal an additional [1] against creatures that haven't taken a turn yet.</content>
+	<content contentuid="h026f3d47g943eg4095gbcbdg04057b493ac9" version="1">Scepter of Souls</content>
+	<content contentuid="h7d999689g5806g4466g80e4g1ad9fdc06bb6" version="1">Imprison the souls of up to three enemies within your scepter. Those separated from their souls suffer an initial [1]. Their movement speed is halved, and they become vulnerable to further necrotic damage.</content>
+	<content contentuid="h5736d90fg1d81g4fafg9dc6g376a9010fac8" version="1">Soulbind Shackles</content>
+	<content contentuid="h7bc46720g2e44g4d07gb3b4gbc647dac2be2" version="1">The afflicted target has been severed from its soul, suffering a halved movement speed and becoming vulnerable to necrotic damage.</content>
+	<content contentuid="h7094e1fbgd712g41abg8056ga6281abf02e3" version="2">Land of the Dead</content>
+	<content contentuid="h72e203b0ga3c0g41edgb07dg3b2a867a9807" version="6">Invoke the power of Anubis and the enigmatic realms of the afterlife as you weave this incantation. Bring forth an ethereal monument veiled in eerie, pale green hues, evoking the essence of lingering souls within the Land of the Dead. Enemies caught within suffer [1].</content>
+	<content contentuid="h6d606b35g91d4g415dg90d0g947cb1f40632" version="2">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Has no effect on Undead.</content>
+	<content contentuid="h6e362902g3edbg4b76g91ddg3bdc7d3144ed" version="1">Anubis' Realm</content>
+	<content contentuid="h0360a74dge25dg489agba04gb898eab3d637" version="2">Land of the Dead</content>
+	<content contentuid="h6a04c546g1bfag4195g81e5gfc0ccc0c2b19" version="1">Spectral energies shroud any creature that steps into or starts its turn within the otherworldly &lt;LSTag Type="Spell" Tooltip="ELDER_Target_LandOfTheDead"&gt;Land of the Dead&lt;/LSTag&gt;, inflicting [1]. On a successful save, targets still take half damage.</content>
+	<content contentuid="h82493b8eg9669g46f9g9721geb5b6b691b38" version="3">Anubis' Realm</content>
+	<content contentuid="hb8c64f4cg61f2g4c97g90abgbbb6cb5f76f9" version="3">While inside Anubis' Realm, this entity will [1] every turn as its soul is rended.</content>
+	<content contentuid="heaea9968g50bdg4b79g8bedg2d78051e0831" version="2">Anubis' Realm</content>
+	<content contentuid="h250a3845gcf04g4026ga6d2g5c58f398d3d8" version="2">Deals [1] to anyone caught inside &lt;LSTag Type="Spell" Tooltip="ELDER_Target_LandOfTheDead"&gt;Land of the Dead&lt;/LSTag&gt;</content>
+	<content contentuid="h136a28b2gc4fbg452bgb086g85198fb50987" version="2">Anubian Valor</content>
+	<content contentuid="h2be75351gaea9g4ee5ga566gafa93c815c86" version="2">Your weapon deal an additional [1] damage while surrounded by [2] or more foes.</content>
+
+	<content contentuid="hd5ebbef3g00d5g4976g9009g659d54ac4b6f" version="2">Bloodmoon Fang</content>
+	<content contentuid="ha35e4f54g2692g4867gaab8gc002f44d7f9d" version="1">A sinister dagger, bearing the haunting legacy of ancient, powerful vampires. With every movement, a haunting whisper accompanies it, promising dread and eternal night to those who cross its path.</content>
+	<content contentuid="h695ee654gb2ccg46b1g9051g042df04bbfb7" version="1">Last Stand</content>
+	<content contentuid="heae3c0d9g0746g4073g8c85ga49b6adb082e" version="1">Upon reaching 0 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you recover [1] instead of falling unconscious. This ability renews after a long rest.</content>
+	<content contentuid="h88f95210g4c5bg4777g8edage939053dfdd6" version="1">Last Stand</content>
+	<content contentuid="h0df9d2bfg3579g4f52g9832g1f5bb88e492c" version="1">Last Stand</content>
+	<content contentuid="h0ca01a10ge3d0g429agaeb8ga264aed74390" version="1">Upon reaching 0 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you recover [1] instead of falling unconscious. This ability renews after a long rest.</content>
+	<content contentuid="h020c146cgd43bg4684g9f81g0df89c919d36" version="1">Scarlet Mist</content>
+	<content contentuid="h0450f43ag6018g4d38g814ag80929f979aaa" version="3">Transform yourself into a red mist. It can't fall, and fits through small openings. It is very hard to damage.</content>
+	<content contentuid="hc386b3dbga47cg4706gb774g6a32def2dc73" version="5">While in mist form, you &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity, and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h5fd89a5ag6d4dg410egbd90gf582cc3b2985" version="1">Scarlet Mist</content>
+	<content contentuid="h6a138587gf54bg46cbg8886gc5b725670b82" version="2">Transformed into a red mist.&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all non-magical damage, has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and is tiny in size.&lt;br&gt;&lt;br&gt;Can't attack, cast spells, or talk.</content>
+	<content contentuid="hcce43fdagaefeg4af3ga318gc2649a6362f7" version="1">Vampiric Swarm</content>
+	<content contentuid="haba48a1agb326g4f0fg9a2cgfe525c3ca1fa" version="1">Summon a legion of vampire bats that surge forward. Affected targets are pushed back and may become &lt;LSTag Type="Status" Tooltip="LOW_CAZADOR_VAMPIREBAT"&gt;Swarmed&lt;/LSTag&gt;.</content>
+	<content contentuid="h1e1ead34g9401g4c75g92fcg0e0d45865d0d" version="1">Swarmed</content>
+	<content contentuid="h1446c0eaga458g4dc0g95e7g9d6158ff95ac" version="1">Affected entity is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Piercing damage and will take [1] every turn.</content>
+
+	<content contentuid="h3a3ddc28g2423g4a9bgb00fg32f9899ab6e5" version="1">Ridgebreaker</content>
+	<content contentuid="h885ef0b2gbee3g460fgb508g4f8b9b98708b" version="1">A weapon of fabled origin, once held by a heroic dwarf whose legacy echoes in the tales of shattered foes and mountains cleaved in two.</content>
+	<content contentuid="h442bd3d7g265cg4115ga418gccf3c5f9e88e" version="1">War Smite</content>
+	<content contentuid="hf71a695ega119g406fg9c42ge9bb22e5fa25" version="1">When wielded by a Dwarf this weapon deals extra [1].</content>
+
+	<content contentuid="ha32d8ec6g4e30g4569gb9ecg3c5bc40e4cd8" version="1">Crystal Skin</content>
+	<content contentuid="h722a2430g8d8fg4bc6g9febga17ab929352c" version="1">With a surge of arcane energy, your body crystallizes into a radiant shield of elemental protection. Fortified by this transformation, you gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire, Ice, and Lightning.</content>
+	<content contentuid="hcfffc751g36deg48f6gb37cg5dd8c3362d4c" version="1">Crystal Skin</content>
+	<content contentuid="hedf914e2gad07g4143gbda6g05cbfdd8463b" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all elemental damage.</content>
+
+	<content contentuid="h47656755gde52g401eg82efg538306495437" version="1">Eladrin's Reach</content>
+	<content contentuid="he486cbd2g55ccg490ag8bb6g06f5dcc3ad86" version="1">An elven spear of ethereal beauty, echoing the grace of the Eladrin.</content>
+	<content contentuid="h90f65059ga314g43bcga222gefabd034d19f" version="1">Hero of Elvenkind</content>
+	<content contentuid="hc0ee1403g41a2g4f30ga110g1179d2775830" version="1">When Elf makes attacks while having &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, they deal an additional [1].</content>
+	<content contentuid="h954109b2g68ffg4283gb064g63e21a501b66" version="1">Battle Specialist (Melee)</content>
+	<content contentuid="hcdd3bfe3gaa0eg4bbfg950egd4eb93408312" version="1">Sacrifice [1] movement speed. For the next turns, roll melee damage die twice and use the highest result. Additionally, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your melee damage and gain a +2 bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h434990e6gb13cg414bga4a0g030d47577183" version="1">Battle Specialist (Melee)</content>
+	<content contentuid="h97dbb191g4133g4bacgb3ccg3b88068ff261" version="1">Roll melee damage die twice and use the highest result. Your melee attacks deal additional [1] based on your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, and you gain a +[2] bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="hffac1681g7fe7g40d4ga7e0g349b237a8f74" version="1">Frostlance</content>
+	<content contentuid="hd2989d3fg5051g45c5ga5c0gccc61dc57cc0" version="1">Pierce your spear into a creature, dealing [1] + [2] and sending a shiver of &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chill&lt;/LSTag&gt; through its body.</content>
+	<content contentuid="hf10a05e1g4831g4496ga0a0g7d2209374c6d" version="1">Winter's Wrath</content>
+	<content contentuid="hd33e786cg7211g42ebgbc07g93a786941a41" version="1">Channels the primordial fury of the frozen north and unleash a beam of blistering cold and deafening thunder.</content>
+
+	<content contentuid="hd04ef05bg76b1g41fdgbabaga876cd7b6fd6" version="2">The Dreamweaver</content>
+	<content contentuid="h1dfb00f1g3e2fg49fdgaec9gd0809cdc5594" version="1">Swift as a fleeting dream and agile as a whispered fantasy, each strike is capable of ensnaring the minds of those it touches, blurring the boundary between waking and the world of dreams.</content>
+	<content contentuid="h8c2565ccg3895g4652g8a4ega45c513b18c2" version="1">The Dreamweaver</content>
+	<content contentuid="hf9c912a9gbc1dg43d1ga268g443a24d7504a" version="1">%%%|Hidden. Dreamweaver VFX Passive|</content>
+	<content contentuid="h95ff8787g5452g4bf6gb20dg1eab79c25385" version="2">Dreamstorm</content>
+	<content contentuid="h6f08481fg0feag4ca0g8526gb63bffc78e01" version="5">Slice through all nearby foes, making a separate attack rolls against each target within range.</content>
+	<content contentuid="ha0669f72g2365g485cg8292ga7b76a02c0fd" version="1">Dreamshaper</content>
+	<content contentuid="hc038df79gf5ecg4215gb020g085e1d9e79b3" version="1">When your off-hand is empty, you score a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; when rolling a 19 and gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; per turn.</content>
+	<content contentuid="hbc64e216gfcb8g45fega0afgb8cedfde60b4" version="1">Haunted Dreams</content>
+	<content contentuid="h23e337dcg1988g4ef7g8fcbga565327d4e39" version="1">Each attack you make carries the potential to imbue &lt;LSTag Type="Status" Tooltip="HAUNTED_DREAMS"&gt;Haunted Dreams&lt;/LSTag&gt; upon your foes.</content>
+	<content contentuid="hedacfd40gf896g44e5g8f51gaf60383bd833" version="1">Haunted Dreams</content>
+	<content contentuid="hd5652379g6bf0g402bgbddeg43d8d624efe4" version="1">Affected entity cannot move, have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and 1d4 penalty to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h5449f818g340dg4b5fga9e0g02d5bdf7cfd6" version="2">Land of Dreams</content>
+	<content contentuid="h07d8797cgfe9bg4396gafe8g06ab48021b45" version="3">Summon 3 echos of yourself to protect you. As long as one of those copies remain, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing and Slashing damage.</content>
+	<content contentuid="hf6166969g38d4g4a2bgaee7g6f4471836dee" version="1">When the caster is struck, a Dream Echo will shatter.</content>
+	<content contentuid="hc173e580g8852g4125g9e1bg2cf1881e80b0" version="3">Dream Echos</content>
+	<content contentuid="ha2c6d539gb399g4621g9484g44f9883859f7" version="5">Affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage while a Dream Echo stands. When the caster is struck, a dream echo will shatter and will grants &lt;LSTag Type="Status" Tooltip="ECHO_OF_SPEED"&gt;Haste&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="ECHO_OF_HEALING"&gt;Healing&lt;/LSTag&gt; and the ability to Retaliate with an attack.</content>
+	<content contentuid="h203088c4g3896g4f85g96cfg65aa5b642038" version="3">Dream Echo: Speed</content>
+	<content contentuid="he98ee715gba9eg4bb6g828bg51523284b64e" version="5">Affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage while a Dream Echo stands. When the caster is struck, the dream echo will shatter and will &lt;LSTag Type="Status" Tooltip="ECHO_OF_SPEED"&gt;Haste&lt;/LSTag&gt; the user.</content>
+	<content contentuid="h1a5c82cag7960g48b6g8a33g70f06c861fa9" version="1">Echo of Speed</content>
+	<content contentuid="h8ae9134cgd3d9g477ag905ag5f65a75e3f86" version="1">The caster has + 2 bonus to Armour Class and its movement speed is doubled.</content>
+	<content contentuid="h47f39262gaa2cg4198gb138g4c72399d22d9" version="2">Dream Echo: Healing</content>
+	<content contentuid="h86b4f66bge54bg4a0eg9718gbb42803866a4" version="1">Affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage while a Dream Echo stands. When the caster is struck, the dream echo will shatter and will heal the user for [1].</content>
+	<content contentuid="h1a82e47dg67c3g4e87gb10dgd398ee998ffe" version="1">Echo of Healing</content>
+	<content contentuid="h36c322d3g6a58g4b72g9a84geff3cd54d85c" version="1">When the caster is struck, the dream echo will shatter and will heal the user for [1].</content>
+	<content contentuid="hfb7ed53bg3ba5g4933g8010g1b7ea99ccfda" version="3">Dream Echo: Retaliation</content>
+	<content contentuid="h2f4774d1ge4c5g4b32gae50g1f54f0b403f2" version="1">Affected entity is &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage while a Dream Echo stands. When the caster is struck, a dream echo will &lt;LSTag Type="Spell" Tooltip="ELDER_Interrupt_DreamEcho_Break"&gt;Shatter&lt;/LSTag&gt;, striking the attacker directly.</content>
+	<content contentuid="h8182b044g0f10g4e5fga013g25989ffbd2f1" version="1">Shatter Dreams</content>
+	<content contentuid="h39894ec4g7269g47c4g86bagc3c84805fe88" version="2">Once struck, your last dream echo detonates and dealing [1] back at the attacker.</content>
+	<content contentuid="h74e80b3eg5e9dg464egac89ge0987f51f457" version="2">Shatter Dreams</content>
+	<content contentuid="h0a1804b7g92a9g48b6gb8fdg64d0a16dda9a" version="4">Once struck, your last dream echo detonates and dealing [1] back at the attacker.</content>
+
+	<content contentuid="h2e6dee04g31d3g495bgbc50g83625bfb353e" version="2">Wildheart</content>
+	<content contentuid="ha66a3516g6d4dg45f4g9c2fgbc514c0957fa" version="1">Within this finely curved bow resides the essence of nature's spirits, woven into its very core. Its bowstring thrums with the symphony of rustling leaves, harmonizing like a chorus of winds dancing through the trees.</content>
+	<content contentuid="ha3b051eag6559g4d98g9e46g5951df79d8d7" version="2">Nature's Blessing</content>
+	<content contentuid="hab367d70g4960g46e5g859fg737869a917b6" version="3">Bestowed with nature's protective embrace, you move unhindered through &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;. You can't be &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt;, and gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h997458f2g778ag44baga80dgce20a48fd8c2" version="1">Wildheart Status VFX</content>
+	<content contentuid="h015fd93egf6bdg4a49ga212g907d97862725" version="1">%%%|Hidden. Wildheart Status|</content>
+	<content contentuid="he7ab252fg550dg4a77gbacfge41b976fe711" version="1">Call of the Forest</content>
+	<content contentuid="hbedea4adgae6eg4e1bgb2f7g4cc5377c6960" version="4">With a whispered plea to the ancient spirits of the forest, you channel their boundless energy. Releasing a primal surge of force, you deal [1] to those around you, pushing them [2] away. As the verdant essence of the woods envelops you, the forest bestows upon you its &lt;LSTag Type="Status" Tooltip="FOREST_GRACE"&gt;Grace&lt;/LSTag&gt;.</content>
+	<content contentuid="h97d4df26g7898g476cg9cddg7aed3f9515a7" version="2">Forest's Grace</content>
+	<content contentuid="hbe4cdca9g52beg45c4gaaebgc0a1f8e966a6" version="2">Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on ranged attacks against the affected entity.</content>
+	<content contentuid="hd879d477ga325g4899gb245g56d2c1383922" version="1">Battle Specialist (Ranged)</content>
+	<content contentuid="h70e669a7g9915g4d0bg9ff5gc147c43d3e64" version="1">Sacrifice [1] movement speed. For the next turns, roll ranged damage die twice and use the highest result. Additionally, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your ranged damage and gain a +2 bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h1d24180dgf3eag43b1gaff6ga5a2add3de71" version="1">Battle Specialist (Ranged)</content>
+	<content contentuid="hbf1704d4g1975g4e2ag8f94ge8659f6a1e76" version="1">Roll ranged damage die twice and use the highest result. Your ranged attacks deal additional [1] based on your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, and you gain a +[2] bonus to your &lt;LSTag Tooltip="ArmorClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h7952619eg9399g4e91g9625g71b365f03e1d" version="1">Venomstrike</content>
+	<content contentuid="h410d8e5egf0b6g42f0gb507ge61560faa560" version="5">Release a posion-infused projectile dealing [1] and [2] to your target.</content>
+
+	<content contentuid="hbe66b582gf7e7g4adegab9cg7d397884a3ac" version="1">Wrath of Asmodeus</content>
+	<content contentuid="h53e4ac58gb6f1g4c09ga166g3321ba3fc859" version="1">Forged in the depths of the Nine Hells, bears the malevolent mark of Asmodeus. Each shot whispers the Prince of Lies' malevolent schemes, a harbinger of doom to those it marks.</content>
+	<content contentuid="hbb4d2c23g243dg40d4ga5a5gc89235376e73" version="1">Archdevil's Rebuke</content>
+	<content contentuid="he65be4a2g3d6cg48dcg95acg68c830be3cb3" version="1">When struck by radiant damage, you may use your reaction to retaliate with a hellish flame, dealing [1] and potentially &lt;LSTag Type="Status" Tooltip="INFERNAL_BINDINGS"&gt;Binding&lt;/LSTag&gt; the target.</content>
+	<content contentuid="hf01531edgf9dfg4c88g8da6g6e2780600603" version="1">Archdevil's Rebuke</content>
+	<content contentuid="hb70a6439g3bb5g4964ga1f8g1683005723b7" version="3">When taking Radiant damage, you can retaliate with fiery retribution dealing [1] and &lt;LSTag Type="Status" Tooltip="INFERNAL_BINDINGS"&gt;Binding&lt;/LSTag&gt; the attacker.</content>
+	<content contentuid="hea5aa996gbe14g4610gb954g3997bf3d791d" version="2">Archdevil's Rebuke</content>
+	<content contentuid="h922e7fbbg5190g458cg9897g575409b6ecf5" version="3">After taking radiant damage, you can retaliate with fiery retribution dealing [1] and &lt;LSTag Type="Status" Tooltip="INFERNAL_BINDINGS"&gt;Binding&lt;/LSTag&gt; the attacker.</content>
+	<content contentuid="h904ef14fga0c3g46ebgbc69g85159f73e69b" version="1">Infernal Bindings</content>
+	<content contentuid="h857b27f0ge3a8g486cg9106gdcb1ad53e2ed" version="1">The afflicted creature is bound by the Nine Hells, it can't move or take actions, bonus actions, or reactions.</content>
+	<content contentuid="hd9dfb803g1d1bg4724gb874g4f3d36e2b6e0" version="1">Hellfire Devotion</content>
+	<content contentuid="h70c8fa78g8014g4d5fg90d3g62a715bc8156" version="1">Forged from a pact sealed in infernal blood, you wield dominion over the forces of the Nine Hells. As you command, you and any nearby fiends deal an additional [1] to damage dealt with melee weapons. The aura disappears if you fall Unconscious.</content>
+	<content contentuid="hd9dbb2f6g4da0g4a36g80e5g9391b83c0e21" version="2">Hellfire Devotion</content>
+	<content contentuid="hbc83d442g2604g4371g93acgb56386f3d209" version="3">The spellcaster and any nearby fiends deal an additional [1] to damage dealt with melee weapons.</content>
+	<content contentuid="h7e72982eg42d0g473cgafbdg45d0a0c9afc6" version="2">Hellfire Devotion</content>
+	<content contentuid="h1798d80ageefdg4e8dga49dgd18a8fcdced7" version="3">Deals an additional [2] to damage dealt with melee weapons within [1] of the spellcaster.</content>
+	<content contentuid="h2e045ba5ga450g4a73gb3c3g8839aa5d4359" version="1">Asmodean Torment</content>
+	<content contentuid="hf49b95e4gb293g4de2g8997ge1864edde2bd" version="5">Deals [1] and explodes, dealing an additional [2] to all caught in the flames.</content>
+	<content contentuid="hbb6e27e1g52bcg4f3agaeccgb09c102990f8" version="1">Hellish Mark</content>
+	<content contentuid="ha812b1e4gdf67g4504g94e0g89c32de9e990" version="1">Afflicted creature suffers [1] at the start of its turn, and attackers gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against it.</content>
+
+	<content contentuid="hd15ab578g3394g4d70g987agb4bdc4035fbb" version="1">Aetherius</content>
+	<content contentuid="h26afe4f1ga5b7g4f33g839fg9b77a126cf76" version="1">Wrought from the crystalline thoughts of a thousand enslaved minds, gleams with malevolent psionic aura. Every strike shatters the barriers of the mind, drawing foes into an abyss of psychic despair.</content>
+	<content contentuid="hb9ec9952gb922g4cc7g9365gb6ec6bd4db76" version="1">Mindshatter</content>
+	<content contentuid="he487941fg3197g4564g84f4g398f0d4d5676" version="1">On successful Critical Hit, you release a burst of psychic energy in a 3-meter radius. &lt;LSTag Type="Status" Tooltip="MINDSHATTER"&gt;Shattering&lt;/LSTag&gt; the minds of all nearby enemies.</content>
+	<content contentuid="h1b5a614dga81fg44c7gb184ge2b41dd0b03a" version="1">Mindshatter Burst</content>
+	<content contentuid="h5e976990g37f1g4941gaaf2g090854ad5ebb" version="1">&lt;LSTag Type="Status" Tooltip="MINDSHATTER"&gt;Shattering&lt;/LSTag&gt; the minds of nearby enemies upon landing a critical hit.</content>
+	<content contentuid="h3496d628g6f01g4051gbbf7ga80d18de6316" version="1">Shattered Mind</content>
+	<content contentuid="ha98f2dfcgfb15g4c4agaa13g3aa4a7beefc2" version="1">The target's mind is shattered. The affected entity has disadvantage on Wisdom and Intelligence saving throws.</content>
+	<content contentuid="h65eae93bgec46g4ba4gade4g4fd5be100c72" version="1">Willbreaker</content>
+	<content contentuid="h67a7db99g8d6ag404ag8ac8g5c0adbae4998" version="1">Unleash a devastating strike infused with psychic energy. On a failed Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, the target’s &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; is broken and they become afflicted with &lt;LSTag Type="Status" Tooltip="BROKEN_WILL"&gt;Broken Will&lt;/LSTag&gt;.</content>
+	<content contentuid="hfeeb69bcgd564g4e0fgbf50ga62cb060be08" version="1">Broken Will</content>
+	<content contentuid="hd73ee06ega182g4b6dg8079gdbc1a5710e0b" version="1">Affected entity Armor class is reduced by 3 and movement speed is halved.</content>
+	<content contentuid="h1f179b06g6570g4f2dga411g561f0ca3331b" version="1">Disruptor</content>
+	<content contentuid="h93f38330g5f91g49e1g8a41g06e1092490b7" version="1">Release a burst of malevolent energy, dealing [1] and &lt;LSTag Type="Status" Tooltip="DISRUPTION"&gt;Disrupting&lt;/LSTag&gt; your foes.</content>
+	<content contentuid="h101fddbfgd410g4e6eg95a4g94f4815698f0" version="1">Disruption</content>
+	<content contentuid="h3dd91684g2a1eg4298g99b7ge3d83dee5bd4" version="1">Can't take reactions and is &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to attacks.</content>
+	<content contentuid="h465f251agee79g4ef0g83c0g5f702228948a" version="1">Rays of Oblivion</content>
+	<content contentuid="h3dbed4a7g6c8bg4f8fga651g5329eecf01fe" version="1">Unleash the ancient might of the Illithid, crushing a creature's being with raw psychic power, capable of traversing to two additional targets within an [1] range.</content>
+
+	<content contentuid="h637a2885gbfb9g4324gbdc5g45930e2aa752" version="1">Excalibur</content>
+	<content contentuid="hdb187b5dga32eg46deg8044g253bd538ec50" version="1">Forged in the heart of Avalon, it radiates with divine light. A powerful blade capable of cutting through darkness and injustice with the authority of a true king.</content>
+	<content contentuid="hef702d35g64f8g4df2g9c37gb4befef7ee52" version="1">Healing Strikes</content>
+	<content contentuid="hda14ea23g40dbg45f8ga98egdc74a1b9136e" version="1">Heals the user for [1] hit points with each successful hit.</content>
+	<content contentuid="h5870ed7bgaf2fg4317gafe7g742ca7ecff56" version="1">Merlin's Blessing</content>
+	<content contentuid="h7426a636g9adeg401ega351gc38fd249b4d6" version="1">Gains a +[1] bonus to Saving Throws against spells.</content>
+	<content contentuid="hc1ddaf24g14dcg4c1aga122g637052029bfc" version="2">Crown of Justice</content>
+	<content contentuid="h110af083gf1efg4033g815ag2e723a30bbe9" version="2">Deals an additional [1].</content>
+	<content contentuid="h7281b88dg9cf9g4813gaf9fgb2d7ec7aac83" version="1">Excalibur VFX Hit</content>
+	<content contentuid="h9c319d0dg7f52g4c09gbbd7g3752417a7f66" version="2">%%%|Hidden. Excalibur VFX Passive|</content>
+	<content contentuid="h9ce41617g9624g4598gb4c2gc7e12252af4d" version="2">King's Verdict</content>
+	<content contentuid="h2c482d9egdcebg450dga782g427bed18785e" version="2">Unleash the true power of Excalibur and deliver the King's Verdict! With a resolute swing, a searing wave of righteous light surges forth, dealing [1] and &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; enemies in its path.</content>
+	<content contentuid="h1e9fed64g43cfg4624g95c0gdd208c4eac91" version="1">Knights of Camelot</content>
+	<content contentuid="h569e6306g07e4g45fag9eeeg3e2da83fcdff" version="1">With a fervent prayer, you beckon the noble Knights of Camelot from the ethereal realm to aid you in battle. Each spectral knight embodies distinct virtues, lending their unique abilities to your cause.</content>
+	<content contentuid="h01bb6ca1g4e5bg406aga7f8g42b7ed098f43" version="1">Knight of Courage</content>
+	<content contentuid="hba068483gb653g4d78g8ba8gdb54736bf667" version="1">Summon the Knight of Courage, Sir Lancelot, the Brave, to the battlefield. A paragon of courage and skill. His noble presence bolsters allies and strikes fear into the hearts of foes, for in his spectral form, valor knows no bounds.</content>
+	<content contentuid="h7b756705g996fg4e36g8a96g6b5a26d35fa2" version="1">"In valor's embrace, I stand unwavering, my blade a beacon of courage!"</content>
+	<content contentuid="h19560422ga1ddg4f14gbe86g359ad67bf1c6" version="1">Knight of Fortitude</content>
+	<content contentuid="h00dcee01g4173g456dgbb8dgd9d9ae5d804e" version="1">Summon the Knight of Fortitude, Sir Percivale, the Unyielding, to join your ranks. A paragon of resilience and unwavering strength. His indomitable spirit bolsters allies, and his unbreakable shield stands firm against all adversaries, a bastion of invincible will on the battlefield.</content>
+	<content contentuid="h71576510g78c0g4d31ga2e1gd597b4c5c92f" version="1">"For truth and honor, I shall not falter!"</content>
+	<content contentuid="h937e18ebgfa7bg4981g9d98gba543156eafa" version="1">Knight of Purity</content>
+	<content contentuid="h791554a7g77fbg4210gb2d4g041dcaf4e919" version="1">Summon the Knight of Purity, Sir Galahad, the Wise, to lend his ethereal presence to your cause. A paragon of purity and healing. His radiant presence brings clarity and protection, warding off dark influences from the battlefield.</content>
+	<content contentuid="h8e2ebad5g898ag48f9g8c32gd706b98e6c47" version="1">"Where shadows linger, I am the light, the banisher of evil"</content>
+	<content contentuid="h8292cfeag6968g4201g94f4g3f17a24a45ea" version="5">Sir Lancelot</content>
+	<content contentuid="h26acfbf8g52afg486ega123g5e5aa608425d" version="5">Sir Percivale</content>
+	<content contentuid="hd2aa3c19gc3cbg477bg8712gdf6c361fe3f7" version="5">Sir Galahad</content>
+	<content contentuid="hd16da250gcb62g43e9g9c0dg90db8cfbecb3" version="1">Divine Sentinel</content>
+	<content contentuid="hb1dffef1g48ceg484cg8a9bg911296296b9d" version="1">Unleash the spirits of divine justice to shield you. Enemies within range take [1], and their movement speed is halved.</content>
+	<content contentuid="hd6e10c68geda0g462dg8265gf37fb5b83d60" version="1">%%% EMPTY</content>
+
+
+
+
+
+	<content contentuid="hdd8fbf9bgac12g40abg91d9g318120fb76d2" version="1">Moonveil</content>
+	<content contentuid="h0a59e012g2992g40e4gae06gdffeac60dc19" version="1">Forged under the light of a dying moon by ancient sorcerers, it shimmers with an otherworldly radiance. Each strike releases a burst of celestial light, tearing through the veil between realms. A blade of grace and destruction, it commands the power of the moon itself.</content>
+
+	<content contentuid="h19a451efgda98g4bb4g803age95442600911" version="1">Lunar Grave</content>
+	<content contentuid="hb35cd4aeged00g4c39g8ad4g454e69ff6d11" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on stealth checks</content>
+
+	<content contentuid="h5e11888ag4d30g4567g82d3g802334484f63" version="1">Moonveil VFX</content>
+	<content contentuid="h4b9d5f8agc3ddg4fa0g9583g1e0e7fd97a25" version="1">%%%|Hidden. Moonveil Status|</content>
+
+	<content contentuid="ha353025bg095cg4163ga689g4e5c128f0704" version="2">Transient Moonlight: Crescent Slash</content>
+	<content contentuid="hd2aff703ge989g4243ga396ga06d343222db" version="2">Draw upon the moon's hidden power as you unsheathe the blade, unleashing a swift crescent wave of condensed moonlight that cleaves through enemies in a short-range arc.</content>
+
+	<content contentuid="h30a294a4ga4aeg4f04gbb10g924fb79348bf" version="2">Transient Moonlight: Lunar Strike</content>
+	<content contentuid="h916c2702g17dag4911g8185g6bacda769ce5" version="2">Channel the full radiance of the moon as you charge the blade and deliver a devastating downward strike.</content>
+
+
+
+
+	<content contentuid="h9c702790gf3ebg4b95g809dgc6909337ef8b" version="1">Searing Sarcasm</content>
+	<content contentuid="ha79077dbg6fecg4f66gad52g6bd25969b2c6" version="1">Unleash a stinging insult upon a creature, dealing [1] and [2]. The insulted target suffers Disadvantage on its next Attack Roll.</content>
+	<content contentuid="h650d2ce0g5b45g475agb121gd15818c3df00" version="2">Searing Sarcasm</content>
+	<content contentuid="hb3215d3bg78f9g43ccg9f5agfb7f309785a5" version="1">Have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+</contentList>

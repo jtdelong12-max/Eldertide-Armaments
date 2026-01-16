@@ -1,0 +1,1784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Transient_Moonlight_Impact_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="38a65ad1-a5bd-459b-b1df-05eb844e4ece" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Transient_Moonlight_Impact_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Cast_Transient_Moonlight_Impact_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241410" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="373807bc-0df2-c1a9-3f12-2ab98909261d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="49a27791-da88-a56b-025c-c3f89a37ed74" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f4b0c482-e50c-f4a1-a545-ce8b95acccda" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5956f5b1-693f-8770-65d0-bf96713f4ed5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2e178130-580f-cb43-bb34-5dc520b572e8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Transient_Moonlight_Vertical_Slash_TextKey_CastFX_01" />
+					<attribute id="ID" type="FixedString" value="1e0c15b7-4950-46ff-a4a7-7515bd574ec8" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Transient_Moonlight_Vertical_Slash_TextKey_CastFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Transient_Moonlight_Vertical_Slash_TextKey_CastFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241410" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="516f415a-5eac-7c11-f9d1-9468a83d8570" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ad197a41-cc39-73e7-04d7-286995bd4ca6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c7fc3e0c-c0ef-3c53-9971-09bc9f087f49" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d803c47f-f39c-db25-067c-b0ddce017db8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Transient_Moonlight_Horizontal_CastFX_Textkey_01" />
+					<attribute id="ID" type="FixedString" value="b97c9b2f-8860-4240-8938-6751d0308474" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Transient_Moonlight_Horizontal_CastFX_Textkey_01" />
+					<attribute id="Radius" type="float" value="8.6602545" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Transient_Moonlight_Horizontal_CastFX_Textkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ad197a41-cc39-73e7-04d7-286995bd4ca6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="da8ff8e2-34e1-9485-47c5-629c168a918e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="516f415a-5eac-7c11-f9d1-9468a83d8570" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c7fc3e0c-c0ef-3c53-9971-09bc9f087f49" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d803c47f-f39c-db25-067c-b0ddce017db8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="18db2e4e-5f1b-a90f-8ec8-fd15c211d85f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Pulse_Blue_Overlay_BodyFX" />
+					<attribute id="ID" type="FixedString" value="0312479b-04a1-4ca6-aeab-00b535dead49" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Pulse_Blue_Overlay_BodyFX" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Pulse_Blue_Overlay_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209027" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b644c8e0-74bd-4c65-86e3-17b255d0b555" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 4 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -2 -3" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.000652" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_Floor_DustSmoke_Blue_Root_01" />
+					<attribute id="ID" type="FixedString" value="eafc3159-759a-453e-838a-08bec65806a3" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_Floor_DustSmoke_Blue_Root_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_Floor_DustSmoke_Blue_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="DependentResource">
+							<attribute id="Object" type="FixedString" value="51cff99a-4f4d-c974-dd40-34f5b2ac28d3" />
+						</node>
+						<node id="DependentResource">
+							<attribute id="Object" type="FixedString" value="72d7dbb5-40b5-b5db-d403-9c3e9043ca08" />
+						</node>
+						<node id="DependentResource">
+							<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+						</node>
+						<node id="DependentResource">
+							<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 8 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -4 -6" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Glyphs_Moon_Root_01" />
+					<attribute id="ID" type="FixedString" value="69ac037d-21ed-46ea-9f20-9cf8889dad1c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Glyphs_Moon_Root_01" />
+					<attribute id="Radius" type="float" value="10.392304" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Glyphs/VFX_ELDER_Glyphs_Moon_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725659" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b040c08-8502-71d9-165e-c07b4f14b00e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="805427db-6be4-4e38-9e8a-a6ad06759244" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a687c268-2182-4a71-8c36-bc1d66e91f87" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7c2e26c1-2cd4-57f6-9817-d13ed1c490db" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="21bfebd5-3192-9c11-c9fb-50990a6314ee" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_Moonbeam_Blue_Root_01" />
+					<attribute id="ID" type="FixedString" value="fc859593-8d27-411a-9497-56c2b0a57163" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_Moonbeam_Blue_Root_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_Moonbeam_Blue_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ef2e915-187a-2db7-9695-0e3b2dc04c3d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="46cb84ae-dfd3-e2a9-e494-40282bee2088" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b183c448-5cd7-2322-4820-3ce1b25feef0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="706c6118-b534-ecc1-051c-6699673cca6a" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Weapon_Longsword_Aura_Trails_Blue_Moonlight_FX_01" />
+					<attribute id="ID" type="FixedString" value="3409e72e-1f4f-457a-bc55-6738ab7b362e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Weapon_Longsword_Aura_Trails_Blue_Moonlight_FX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Weapon/VFX_ELDER_Status_Weapon_Longsword_Aura_Trails_Blue_Moonlight_FX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="784122a9-575c-2b35-20de-ec620d01b519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="58e08597-54d4-4f51-bf49-6878abc102ef" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6026580f-1611-431a-800c-af6a871ed701" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4a7ef7b5-d9b7-f72f-ba33-8d6c1b18bcb8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3660debe-7fca-617f-869c-87ea61e97ac4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aca13066-f88a-f738-9da7-1ec9196ee17c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e25f465b-b1fa-c4a7-8d0c-38020802a170" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d686ed3e-0708-069e-4d02-1c9458d2cd79" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="12f3193c-ce1a-5a69-1bf0-8537b9b606f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Flame_Longsword_MoonLight_FX_01" />
+					<attribute id="ID" type="FixedString" value="d8818a51-bad4-4ed5-8d01-4d53c7fbc579" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Flame_Longsword_MoonLight_FX_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Weapon/VFX_ELDER_Status_Flame_Longsword_MoonLight_FX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fab37d64-9a62-4bd0-b8c4-24a585b18706" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca9ebf9e-60bd-79b1-b14e-3aa4c5f163b1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Flame_Longsword_Holy_FX_01" />
+					<attribute id="ID" type="FixedString" value="3177ce07-7a08-4c2a-9ccb-c04730a6c1f6" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Flame_Longsword_Holy_FX_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Weapon/VFX_ELDER_Status_Flame_Longsword_Holy_FX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="05c49cbf-3057-4719-9503-a7fa5fd59fb5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca9ebf9e-60bd-79b1-b14e-3aa4c5f163b1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="0.3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Weapon_Longsword_Outline_PaleGold_FX_01" />
+					<attribute id="ID" type="FixedString" value="70bdc533-7fc8-4e10-9945-dc7a9e655d48" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Weapon_Longsword_Outline_PaleGold_FX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Weapon/VFX_ELDER_Status_Weapon_Longsword_Outline_PaleGold_FX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6b72feb6-59aa-8bcf-4e07-fa30325394aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="59395b01-2ed9-6d22-0577-6b8a96044c8e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e861c0c8-a4f4-b18f-0dcb-34f1fcaa371b" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Weapon_Longsword_Aura_Energy_PaleGold_FX_01" />
+					<attribute id="ID" type="FixedString" value="7efb155b-97aa-486b-84b7-3b4633cd0d09" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Weapon_Longsword_Aura_Energy_PaleGold_FX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Weapon/VFX_ELDER_Status_Weapon_Longsword_Aura_Energy_PaleGold_FX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ae68383d-b1ad-1968-3616-5d2ea373dfbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c189fd60-7f63-478a-b030-c3efb0c00e0c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="784122a9-575c-2b35-20de-ec620d01b519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0aef6640-0541-9fe9-8831-36e319ad680d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d686ed3e-0708-069e-4d02-1c9458d2cd79" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="12f3193c-ce1a-5a69-1bf0-8537b9b606f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.000924" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Static_Red_Overlay_01" />
+					<attribute id="ID" type="FixedString" value="a8e95c25-48d7-460e-a8ef-ed2ef3fb7bfc" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Static_Red_Overlay_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Static_Red_Overlay_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a23a42d4-8aa8-475e-9cda-fcb185417671" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f4ddbcde-41aa-aca8-c489-00a7249001e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cbb5433f-edac-4c66-90b3-91cada7ef439" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.000924" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Static_Emerald_Overlay_01" />
+					<attribute id="ID" type="FixedString" value="06ff9b41-0e4c-4674-955a-1d540c13e4f4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Static_Emerald_Overlay_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Static_Emerald_Overlay_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="566690c8-ff24-47cf-979e-3f625fadee06" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f4ddbcde-41aa-aca8-c489-00a7249001e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cbb5433f-edac-4c66-90b3-91cada7ef439" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.000924" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Static_PalePurple_Overlay_01" />
+					<attribute id="ID" type="FixedString" value="ea6616bc-c3cf-43ed-8cb3-040484c4752d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Static_PalePurple_Overlay_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Static_PalePurple_Overlay_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="118ec094-a7e6-4253-a13c-68f9d1438b6b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f4ddbcde-41aa-aca8-c489-00a7249001e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cbb5433f-edac-4c66-90b3-91cada7ef439" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5.5 5.5 5.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5.5 -5.5 -5.5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_CrystalSkin_CastFX_01" />
+					<attribute id="ID" type="FixedString" value="9f9454d4-463f-4d3e-83bd-b1521f09b5d7" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_CrystalSkin_CastFX_01" />
+					<attribute id="Radius" type="float" value="5.5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_CrystalSkin_CastFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d5f87828-7bd2-2ad0-f056-a4bed753c649" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="20 23 20" />
+					<attribute id="BoundsMin" type="fvec3" value="-20 -17 -20" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.400558" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_CrystalSkin_Root_01" />
+					<attribute id="ID" type="FixedString" value="a8b72c69-9b8c-4300-9c32-e057da98f1fa" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_CrystalSkin_Root_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_CrystalSkin_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ebf5677-d7fd-f1a6-8c5e-5892a4215d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b3aa0d0-e68b-477b-4a90-79041a84a6ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="975e8492-eb51-85d6-6a0b-d9d7358865b1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d5f87828-7bd2-2ad0-f056-a4bed753c649" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b2994464-b4ca-240e-923d-1ee4cf370ad3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.56" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_CrystalSkin_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="9f228df7-2e50-49c5-8f09-93f8505aca4a" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_CrystalSkin_BodyFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_CrystalSkin_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d5f87828-7bd2-2ad0-f056-a4bed753c649" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Pulse_PalePurple_Overlay_BodyFX" />
+					<attribute id="ID" type="FixedString" value="d84564f9-f3f1-416b-bfb9-ee72cfe7df0b" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Pulse_PalePurple_Overlay_BodyFX" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Pulse_PalePurple_Overlay_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209027" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="38e2ad75-e5cf-460c-bf80-d805cef62325" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 4 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -2 -3" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_CrystalSkin_Circle_Cleric_Root_01" />
+					<attribute id="ID" type="FixedString" value="839c94a5-9f42-44ea-916e-737eee8beb90" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_CrystalSkin_Circle_Cleric_Root_01" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_CrystalSkin_Circle_Cleric_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="45790b17-1791-4e62-98b4-2cf28c6f0f1d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c3116570-4fc9-d767-e129-3ad2527f3d44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2553f7b7-fc2b-43da-9986-22d8a90b9aca" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_Willbreaker_Root_01" />
+					<attribute id="ID" type="FixedString" value="8c1e4ec8-bfab-4632-84fc-174ea9416d96" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_Willbreaker_Root_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_Willbreaker_Root_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="11b7b087-60cf-2e14-367d-f1c60d9b91b3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ef2e915-187a-2db7-9695-0e3b2dc04c3d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a34d1562-29ea-f8ab-c639-7efab4cdffa5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="46cb84ae-dfd3-e2a9-e494-40282bee2088" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b183c448-5cd7-2322-4820-3ce1b25feef0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="706c6118-b534-ecc1-051c-6699673cca6a" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 8 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -4 -6" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_Willbreaker_Root_Textkey" />
+					<attribute id="ID" type="FixedString" value="f3d3be3a-a927-42f0-898d-83aae7824ad9" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_Willbreaker_Root_Textkey" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_Willbreaker_Root_Textkey.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="51cff99a-4f4d-c974-dd40-34f5b2ac28d3" /> // Smoke
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ed10b833-0bff-b502-eab9-98586abaf81e" /> // Curve_Trail 01
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="07970c82-d3ac-7b25-2293-608458360668" /> // Curve_Trail 02
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="eab7d343-af53-5fed-df0e-13fce9337599" /> // decal going in circle
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="356de12d-06ca-d615-8ec7-93a14a278a93" /> // decal going in circle
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" /> // decal going in circle
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" /> // lightning beams
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="caae0e10-ea03-f769-6d5f-e55cbb1996c3" /> // lightning beams
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" /> // sparks
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Radiant_KingVerdict_R_HandFX_01" />
+					<attribute id="ID" type="FixedString" value="1ef6073d-5d88-42a7-9efa-5d728d8c21a3" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Radiant_KingVerdict_R_HandFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Radiant_KingVerdict_R_HandFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.499909" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Radiant_KingVerdict_CastFX_TextKey_01" />
+					<attribute id="ID" type="FixedString" value="292f6e3b-73cf-49a7-9d5e-ec801d4b62f9" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Radiant_KingVerdict_CastFX_TextKey_01" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Radiant_KingVerdict_CastFX_TextKey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0304ee2e-6c7b-498b-2e84-02ce96eec15c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d9e3d13-d153-5ecc-5248-0a46c058e001" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0310610e-2ae1-9b79-fe1b-4de4e2c57cb0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Radiant_KingVerdict_Root" />
+					<attribute id="ID" type="FixedString" value="fe6ee00e-eaa5-46af-988c-bdb41682bbc3" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Radiant_KingVerdict_Root" />
+					<attribute id="Radius" type="float" value="10.392304" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Radiant_KingVerdict_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f5d94705-4804-46e1-a383-374d48be3c8c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Overlay_Longblade_Orange_DummyFX01" />
+					<attribute id="ID" type="FixedString" value="7d3efa1c-d321-4a34-847b-1e66064ec3c0" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Overlay_Longblade_Orange_DummyFX01" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Overlay_Longblade_Orange_DummyFX01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ce14cc03-5e89-4813-a12f-6f888eb5f108" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Impact_HellishRebuke_Red" />
+					<attribute id="ID" type="FixedString" value="5d3865b3-5e95-4d36-ba82-90bfeb690c91" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Impact_HellishRebuke_Red" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Impact_HellishRebuke_Red.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a0998003-12c2-93ef-c686-797451ed2d9b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="adf61e67-1025-abec-acb6-293573be8622" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Status_Pulse_YellowFire_Overlay_BodyFX" />
+					<attribute id="ID" type="FixedString" value="6576ebeb-46dd-4454-8020-fd70838e8f19" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Status_Pulse_YellowFire_Overlay_BodyFX" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Status/VFX_ELDER_Status_Pulse_YellowFire_Overlay_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209027" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="27363b06-e245-49ed-a937-2f91f822e385" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="1.86007" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_ApplyEffect_YokaiBind_BodyFX" />
+					<attribute id="ID" type="FixedString" value="6e1acbf2-821e-41bc-af56-c3b14bc49b85" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_ApplyEffect_YokaiBind_BodyFX" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_ApplyEffect_YokaiBind_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35616aa2-cdec-342a-943c-74b0fd665ecf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bf272981-98bd-04b2-f4bb-e4e5e0fa6604" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9fe36cfd-719d-a404-0f5c-694d6a8999d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e861c0c8-a4f4-b18f-0dcb-34f1fcaa371b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 8 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -4 -6" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_ShadowNecrotic_Root" />
+					<attribute id="ID" type="FixedString" value="3006d8d8-9fd8-4563-af7b-14512443fb2f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_ShadowNecrotic_Root" />
+					<attribute id="Radius" type="float" value="10.3923" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_ShadowNecrotic_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725659" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4985fb75-9d27-418e-b10b-31f01a5d3413" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f47d2eb0-af43-e862-8a1c-a431867fbe2b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6ab59f8e-b026-481c-9bb2-3f489fca714d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fcc77c68-0ede-4534-ad1d-ffc2cd3f69c1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0a88cbc0-2fc7-4a47-ae7a-07f790d499ec" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="11f5a93a-ec51-43c8-b646-2b31f487f8c1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a0c9896e-a068-211f-9c95-2f4e0517a766" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="706c6118-b534-ecc1-051c-6699673cca6a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7c2e26c1-2cd4-57f6-9817-d13ed1c490db" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="21bfebd5-3192-9c11-c9fb-50990a6314ee" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 4 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -2 -3" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_FloorRing_Necrotic_RootFX" />
+					<attribute id="ID" type="FixedString" value="8e598a54-d66f-4542-a320-2214ac485c00" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_FloorRing_Necrotic_RootFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_FloorRing_Necrotic_RootFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4985fb75-9d27-418e-b10b-31f01a5d3413" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3c900df2-679b-46b1-9839-16504cd04812" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="160e579e-d70a-46dd-b101-8e7e207b3ac0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bf2be95c-eb45-49c2-a825-709137375730" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_02" />
+					<attribute id="ID" type="FixedString" value="729d2592-bc99-4440-b5ba-651c7c2a2c68" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_02" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9fe36cfd-719d-a404-0f5c-694d6a8999d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cc1400b2-069d-8ae3-9f34-3f28dda38801" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_01" />
+					<attribute id="ID" type="FixedString" value="01b08229-a1b1-4908-ac61-c6fbd9f1c0ea" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_01" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Purple_Impact_Paladin_ChestFX_Texkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ae68383d-b1ad-1968-3616-5d2ea373dfbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Purple_Impact_Paladin_Texkey_01" />
+					<attribute id="ID" type="FixedString" value="814a7970-619a-4257-a9aa-9815ec2d5dd5" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Purple_Impact_Paladin_Texkey_01" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Purple_Impact_Paladin_Texkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6270a53b-b3b6-0d6e-47d3-a72f099bdc5c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2.020726 2.020726 2.020726" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.020726 -2.020726 -2.020726" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_02" />
+					<attribute id="ID" type="FixedString" value="867c0c43-ab98-4c4e-818d-cd8e6fae67ea" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_02" />
+					<attribute id="Radius" type="float" value="3.5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3bab513a-1105-16a3-a9d6-0fedc1ece4ca" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22d734b6-e1ab-bf81-f557-33d06913b0ea" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3.5 3.5 3.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-3.5 -3.5 -3.5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="4d05668a-e1fe-4710-8b0d-be0cc6c65fc2" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_01" />
+					<attribute id="Radius" type="float" value="6.062178" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_Purple_Whirlwind_Impact_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725661" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3bab513a-1105-16a3-a9d6-0fedc1ece4ca" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22d734b6-e1ab-bf81-f557-33d06913b0ea" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2.5 2 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.5 -1 -2.5" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_03" />
+					<attribute id="ID" type="FixedString" value="d80a4302-4d90-48a5-825b-e83ae62d1dfa" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_03" />
+					<attribute id="Radius" type="float" value="3.840573" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_03.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="89d63f8d-46de-6205-ce2f-a4a5cd6f6c12" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.25 1.25 1.25" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.25 -0.25 -1.25" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_02" />
+					<attribute id="ID" type="FixedString" value="b2d4902f-98fd-4c29-8386-2b8bfe745b04" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_02" />
+					<attribute id="Radius" type="float" value="1.920286" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="89d63f8d-46de-6205-ce2f-a4a5cd6f6c12" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="de2a6905-0619-6ba8-ca45-bc97f544bee0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f1d851d9-d95a-5b15-61c5-c11fb4b2e1fa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.25 1.25 1.25" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.25 -0.25 -1.25" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_01" />
+					<attribute id="ID" type="FixedString" value="be5bd81d-12a2-44bb-b1c3-0f8f8c16fe44" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_01" />
+					<attribute id="Radius" type="float" value="1.920286" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Whirlwind_CastFX_Swoosh_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="89d63f8d-46de-6205-ce2f-a4a5cd6f6c12" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.25 0.5 1.25" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.25 -0.5 -1.25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_02" />
+					<attribute id="ID" type="FixedString" value="1681ce2c-44a0-4673-b051-38fe14111316" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_02" />
+					<attribute id="Radius" type="float" value="1.837117" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Whirlwind_CastFX_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="de2a6905-0619-6ba8-ca45-bc97f544bee0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f1d851d9-d95a-5b15-61c5-c11fb4b2e1fa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.25 0.5 1.25" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.25 -0.5 -1.25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_01" />
+					<attribute id="ID" type="FixedString" value="e96bd55e-76e8-49fa-a99d-ec3b2813bbe7" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Whirlwind_CastFX_01" />
+					<attribute id="Radius" type="float" value="1.837117" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Whirlwind_CastFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Cast_Purple_Weapon_DummyFX" />
+					<attribute id="ID" type="FixedString" value="23962a27-fc7d-4c42-8667-dbf7eedb7d75" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Cast_Purple_Weapon_DummyFX" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Cast/VFX_ELDER_Cast_Purple_Weapon_DummyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725661" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f2b50b7a-bd5e-8751-42ae-17deb4583a9d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="12f3193c-ce1a-5a69-1bf0-8537b9b606f9" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_DivineSmite_Hit_Purple" />
+					<attribute id="ID" type="FixedString" value="57fe1593-19c3-4937-be55-45ca39f47591" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_DivineSmite_Hit_Purple" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Impact/VFX_ELDER_DivineSmite_Hit_Purple.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8095f74a-0154-0428-fe7f-373446cc37e2" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="516f415a-5eac-7c11-f9d1-9468a83d8570" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fe200dc9-f7d7-aca7-92c7-c3b8f8a59e87" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4a03c9b3-6807-6796-7fb9-0782cf300574" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="18db2e4e-5f1b-a90f-8ec8-fd15c211d85f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c7fc3e0c-c0ef-3c53-9971-09bc9f087f49" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 1.67" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2.33" />
+					<attribute id="Center" type="fvec3" value="0 1.5 -0.33" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_BodyFX_Purple" />
+					<attribute id="ID" type="FixedString" value="23d4d62a-6922-47a1-b9f0-11d4167a3039" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_BodyFX_Purple" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_BodyFX_Purple.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274414" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="697508a2-29ca-f603-a7ce-7c15bb4b3e6a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="355ce313-eb58-683a-ad7a-f6d544e70a03" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_DummyFX_01_Purple_Weapon" />
+					<attribute id="ID" type="FixedString" value="47145e6b-b109-4c4e-b9c8-a16e3923d78c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_DummyFX_01_Purple_Weapon" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_DummyFX_01_Purple_Weapon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d686ed3e-0708-069e-4d02-1c9458d2cd79" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f27364e-c958-08a1-be9b-d986925374a0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -1 -2" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_ELDER_Prepare_Root_Purple_Whirlwind" />
+					<attribute id="ID" type="FixedString" value="aa870856-2c1f-4022-b878-b81926168c8e" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_ELDER_Prepare_Root_Purple_Whirlwind" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/EldertideVFX/Assets/Effects/Effects_Banks/Prepare/VFX_ELDER_Prepare_Root_Purple_Whirlwind.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2e3f5d42-04d8-c98b-8ebd-6ae2d68e26a4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="675fc759-f1c1-248d-96ef-adc5f38bd66f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
