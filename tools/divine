@@ -1,0 +1,3 @@
+#!/bin/bash
+# LSLib Divine CLI wrapper script
+/usr/lib/dotnet/dotnet /workspaces/Eldertide-Armaments/tools/Packed/Tools/Divine.dll "$@"
