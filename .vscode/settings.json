@@ -1,0 +1,30 @@
+{
+  // BG3 Mod Helper Configuration
+  "bg3ModHelper.modName": "EldertideArmament",
+  "bg3ModHelper.modUUID": "22b848d1-5fff-4f76-a4f8-8461721e6112",
+  "bg3ModHelper.authorName": "Proxeuz",
+  "bg3ModHelper.modDescription": "Proxeuz's rings and amulets collection.",
+  
+  // Path to localization files
+  "bg3ModHelper.localizationPath": "${workspaceFolder}/EldertideArmament/Localization/English",
+  
+  // Path to mod root
+  "bg3ModHelper.modPath": "${workspaceFolder}/EldertideArmament",
+  
+  // Auto-update .loca.xml files when generating new handles
+  "bg3ModHelper.autoUpdateLocalization": true,
+  
+  // File associations for BG3 files
+  "files.associations": {
+    "*.lsx": "xml",
+    "*.loca": "xml",
+    "*.loca.xml": "xml",
+    "*.txt": "bg3txt"
+  },
+  
+  // Editor settings for BG3 mod files
+  "editor.formatOnSave": false,
+  "[xml]": {
+    "editor.defaultFormatter": "vscode.xml"
+  }
+}
