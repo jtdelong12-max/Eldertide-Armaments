@@ -809,6 +809,8 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Finesse;Melee;Dippable;Magical"
 data "Proficiency Group" "Rapiers;MartialWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, RIGHTEOUSAVENGER_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(RIGHTEOUSAVENGER_VFX)"
 
 - - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Bleeding Edge \\
@@ -948,7 +950,9 @@ data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
 data "BoostsOnEquipMainHand" "UnlockSpell(ELDER_Target_ImprovedTopple)"
 data "PassivesOnEquip" "Passive_ELDER_CombatAttack;Passive_ELDER_AnubianValor"
 data "Weapon Group" "SimpleMeleeWeapon"
-data "Weapon Properties" "Melee;Dippable;Versatile;Magical"
+data "Weapon Prop
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, JUDGMENTOFANUBIS_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(JUDGMENTOFANUBIS_VFX)"erties" "Melee;Dippable;Versatile;Magical"
 data "Proficiency Group" "Quarterstaffs;SimpleWeapons"
 data "Unique" "1"
 
@@ -1163,7 +1167,9 @@ data "Rarity" "VeryRare"
 data "Boosts" UnlockSpell(ELDER_Zone_VampiricSwarm);UnlockSpell(ELDER_Shout_ScarletMist)"
 data "DefaultBoosts" "WeaponEnchantment(2);WeaponProperty(Magical)"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PiercingThrust)"
-data "PassivesOnEquip" "Passive_ELDER_LastStand"
+data "PassivesOnE
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, BLOODMOONFANG_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(BLOODMOONFANG_VFX)"quip" "Passive_ELDER_LastStand"
 data "Weapon Group" "SimpleMeleeWeapon"
 data "Weapon Properties" "Finesse;Light;Thrown;Melee;Dippable;Magical"
 data "Proficiency Group" "Daggers;SimpleWeapons"
@@ -1342,6 +1348,8 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Melee;Dippable;Versatile;Thrown"
 data "Proficiency Group" "Warhammers;MartialWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, RIDGEBREAKER_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(RIDGEBREAKER_VFX)"
 
 - - - - - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Dwarf Weapon Damage \\
@@ -1466,6 +1474,8 @@ data "Weapon Group" "SimpleMeleeWeapon"
 data "Weapon Properties" "Thrown;Melee;Dippable;Versatile;Magical"
 data "Proficiency Group" "Spears;SimpleWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, ELADRINREACH_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(ELADRINREACH_VFX)"
 
 - - - - - - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Elven Advantage Attack \\
@@ -1625,6 +1635,8 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Finesse;Light;Melee;Dippable;Magical"
 data "Proficiency Group" "Scimitars;MartialWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, THEDREAMWEAVER_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(THEDREAMWEAVER_VFX)"
 
 - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Dreamshaper \\
@@ -1838,6 +1850,8 @@ data "Weapon Group" "SimpleRangedWeapon"
 data "Weapon Properties" "Ammunition;Twohanded;Dippable;Magical"
 data "Proficiency Group" "Shortbows;SimpleWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, WILDHEART_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(WILDHEART_VFX)"
 
 - - - - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Nature's Blessing \\
@@ -2031,6 +2045,8 @@ data "Weapon Group" "MartialRangedWeapon"
 data "Weapon Properties" "Ammunition;Loading;Light;Dippable;Magical"
 data "Proficiency Group" "HandCrossbows;MartialWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, WRATHOFASMODEUS_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(WRATHOFASMODEUS_VFX)"
 
 - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Reaction - Archdevil Rebuke \\
@@ -2269,6 +2285,8 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Twohanded;Heavy;Melee;Dippable;Magical"
 data "Proficiency Group" "Greatswords;MartialWeapons"
 data "Unique" "1"
+data "OnEquipFunctors" "ApplyEquipmentStatus(MainHand, AETHERIUS_VFX)"
+data "OnUnequipFunctors" "RemoveStatus(AETHERIUS_VFX)"
 
 - - - - - - - - - - - - - - - - - -
 // Weapon Passive - Mindshatter \\
