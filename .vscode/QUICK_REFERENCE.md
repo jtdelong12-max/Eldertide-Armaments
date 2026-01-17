@@ -46,11 +46,14 @@
 - `spell` → Spell entry
 - `status` → Status entry
 - `passive` → Passive entry
+- `weaponwithvfx` → Weapon with VFX support
+- `weaponvfxstatus` → Weapon VFX status
 
 ### XML/LSX Files
 - `node` → LSX node
 - `attr` → LSX attribute
 - `loca` → Localization entry
+- `weaponvfx` → Complete weapon VFX MultiEffectInfo
 
 ---
 
@@ -78,9 +81,9 @@ EldertideArmament/
 
 ---
 
-## 🔄 Common Workflows
+## � Quick Actions
 
-### 1. Add New Item
+### Generate New Item
 ```
 Open: Stats/Generated/Data/Armor.txt
 Type: armor [Tab]
@@ -90,7 +93,19 @@ Edit localization in: Localization/English/Items_*.loca.xml
 Create RootTemplate: RootTemplates/[uuid].lsx
 ```
 
-### 2. Add New Spell
+### Add VFX to Weapon
+```
+1. Browse MultiEffectInfos/ folder for existing VFX
+2. Copy UUID from filename
+3. Create status: weaponvfxstatus [Tab]
+4. Add to weapon: OnEquipFunctors and OnUnequipFunctors
+5. Test in-game!
+
+See: .vscode/VFX_WEAPON_GUIDE.md for full guide
+See: .vscode/VFX_EXAMPLES.md for copy-paste examples
+```
+
+### Add New Spell
 ```
 Open: Stats/Generated/Data/Spells_*.txt
 Type: spell [Tab]
@@ -99,7 +114,7 @@ Generate handles for name/description
 Add to TooltipExtras if needed
 ```
 
-### 3. Format Stats File
+### Format Stats File
 ```
 Open any .txt file
 Ctrl+Shift+I
@@ -145,6 +160,8 @@ Aligns all data lines
 | `.vscode/snippets.code-snippets` | Custom code snippets |
 | `.vscode/extensions.json` | Recommended extensions |
 | `.vscode/EXTENSIONS_GUIDE.md` | Detailed extension docs |
+| `.vscode/VFX_WEAPON_GUIDE.md` | Complete VFX guide |
+| `.vscode/VFX_EXAMPLES.md` | Copy-paste VFX examples |
 
 ---
 

@@ -134,5 +134,88 @@
       "</node>"
     ],
     "description": "BG3 Root Template GameObject"
+  },
+
+  "BG3 Weapon VFX MultiEffectInfo": {
+    "scope": "xml",
+    "prefix": "weaponvfx",
+    "body": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+      "<save>",
+      "\t<version major=\"4\" minor=\"0\" revision=\"9\" build=\"323\" lslib_meta=\"v1,bswap_guids\" />",
+      "\t<region id=\"MultiEffectInfos\">",
+      "\t\t<node id=\"MultiEffectInfos\">",
+      "\t\t\t<attribute id=\"UUID\" type=\"guid\" value=\"${1:vfx-uuid}\" />",
+      "\t\t\t<attribute id=\"Name\" type=\"LSString\" value=\"${2:Weapon_Name_Effect}\" />",
+      "\t\t\t<children>",
+      "\t\t\t\t<node id=\"EffectInfo\">",
+      "\t\t\t\t\t<attribute id=\"UUID\" type=\"guid\" value=\"${3:effect-uuid}\" />",
+      "\t\t\t\t\t<attribute id=\"EffectResourceGuid\" type=\"guid\" value=\"${4:game-vfx-resource-uuid}\" />",
+      "\t\t\t\t\t<attribute id=\"DetachSource\" type=\"bool\" value=\"False\" />",
+      "\t\t\t\t\t<attribute id=\"DetachTarget\" type=\"bool\" value=\"False\" />",
+      "\t\t\t\t\t<attribute id=\"KeepRotation\" type=\"bool\" value=\"False\" />",
+      "\t\t\t\t\t<attribute id=\"KeepScale\" type=\"bool\" value=\"True\" />",
+      "\t\t\t\t\t<attribute id=\"MainHand\" type=\"bool\" value=\"False\" />",
+      "\t\t\t\t\t<attribute id=\"OffHand\" type=\"bool\" value=\"False\" />",
+      "\t\t\t\t\t<attribute id=\"MinDistance\" type=\"float\" value=\"0\" />",
+      "\t\t\t\t\t<attribute id=\"MaxDistance\" type=\"float\" value=\"0\" />",
+      "\t\t\t\t\t<attribute id=\"BindSourceTo\" type=\"FixedString\" value=\"SourceEntity\" />",
+      "\t\t\t\t\t<attribute id=\"BindTargetTo\" type=\"FixedString\" value=\"TargetEntity\" />",
+      "\t\t\t\t\t<attribute id=\"Pivot\" type=\"FixedString\" value=\"Target\" />",
+      "\t\t\t\t\t<attribute id=\"Enabled\" type=\"bool\" value=\"True\" />",
+      "\t\t\t\t\t<children>",
+      "\t\t\t\t\t\t<node id=\"TargetBone\">",
+      "\t\t\t\t\t\t\t<attribute id=\"Value\" type=\"LSString\" value=\"${5|DummyFX,Dummy_FX_01,Dummy_FX_02,VFXBone,Root|}\" />",
+      "\t\t\t\t\t\t</node>",
+      "\t\t\t\t\t</children>",
+      "\t\t\t\t</node>",
+      "\t\t\t</children>",
+      "\t\t</node>",
+      "\t</region>",
+      "</save>"
+    ],
+    "description": "BG3 Weapon VFX MultiEffectInfo template"
+  },
+
+  "BG3 Weapon VFX Status": {
+    "scope": "bg3txt",
+    "prefix": "weaponvfxstatus",
+    "body": [
+      "new entry \"${1:WEAPON_VFX_STATUS}\"",
+      "type \"StatusData\"",
+      "data \"StatusType\" \"BOOST\"",
+      "data \"DisplayName\" \"${2:h_handle}\"",
+      "data \"Description\" \"${3:h_handle}\"",
+      "data \"Icon\" \"${4:Action_Generic_Magic}\"",
+      "data \"StackId\" \"${1:WEAPON_VFX_STATUS}\"",
+      "data \"StackType\" \"Overwrite\"",
+      "data \"StatusEffect\" \"${5:vfx-uuid}\"",
+      "data \"RemoveEvents\" \"OnEquipWeaponOffHand;OnUnEquipWeaponOffHand\"",
+      "data \"StatusPropertyFlags\" \"DisableOverhead;DisableCombatlog;DisablePortraitIndicator\"",
+      "$0"
+    ],
+    "description": "BG3 Weapon VFX Status entry"
+  },
+
+  "BG3 Weapon with VFX": {
+    "scope": "bg3txt",
+    "prefix": "weaponwithvfx",
+    "body": [
+      "new entry \"${1:ELDER_Weapon_Name}\"",
+      "type \"Weapon\"",
+      "using \"_BaseWeapon\"",
+      "data \"RootTemplate\" \"${2:weapon-uuid}\"",
+      "data \"Damage Type\" \"${3|Slashing,Piercing,Bludgeoning|}\"",
+      "data \"Damage\" \"${4:1d8}\"",
+      "data \"Rarity\" \"${5|Common,Uncommon,Rare,VeryRare,Legendary|}\"",
+      "data \"Weapon Group\" \"${6|MartialMeleeWeapon,SimpleMeleeWeapon,MartialRangedWeapon,SimpleRangedWeapon|}\"",
+      "data \"Weapon Properties\" \"${7:Melee;Dippable;Magical}\"",
+      "data \"Proficiency Group\" \"${8:Longswords;MartialWeapons}\"",
+      "data \"OnEquipFunctors\" \"ApplyEquipmentStatus(MainHand, ${9:VFX_STATUS_NAME})\"",
+      "data \"OnUnequipFunctors\" \"RemoveStatus(${9:VFX_STATUS_NAME})\"",
+      "data \"Unique\" \"1\"",
+      "$0"
+    ],
+    "description": "BG3 Weapon entry with VFX support"
   }
 }
