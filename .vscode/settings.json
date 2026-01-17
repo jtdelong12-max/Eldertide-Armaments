@@ -20,11 +20,33 @@
     "*.loca": "xml",
     "*.loca.xml": "xml",
     "*.txt": "bg3txt"
-  },
+},
   
   // Editor settings for BG3 mod files
   "editor.formatOnSave": false,
   "[xml]": {
     "editor.defaultFormatter": "vscode.xml"
-  }
+},
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "keyword.control.bg3txt",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "keyword.operator.bg3txt",
+            "settings": {
+                "foreground": "#ffa200"
+            }
+        },
+        {
+            "scope": "string.first-column.bg3txt",
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        }
+    ]
+}
 }
