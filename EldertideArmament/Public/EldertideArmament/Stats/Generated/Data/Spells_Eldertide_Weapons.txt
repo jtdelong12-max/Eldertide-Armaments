@@ -3209,3 +3209,127 @@ data "StatusEffect" "73b389af-5604-41de-92f2-bf7cb7b09304"
 // Weapon - add subtle purple effect
 // Dreamstorm - add purple pulse and purple eyes
 // Land of Dreams - purple pulse, purple eyes, Floor smoke
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - BLOODY AWAKENED WEAPONS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// These weapons feature combat-only VFX that activate during battle
+
+// - - - - - - - - - -
+// Crimson Fang \\
+// - - - - - - - - - -
+
+new entry "ELDER_Weapon_CrimsonFang"
+type "Weapon"
+using "_BaseWeapon"
+data "RootTemplate" "a1b2c3d4-e5f6-4a5b-9c8d-7e6f5a4b3c2d"
+data "ValueUUID" "71191c11-966f-4c19-b4ee-eb36d31c4944"
+data "Damage Type" "Force"
+data "Damage" "1d8"
+data "ValueScale" "1"
+data "Weight" "1.2"
+data "Rarity" "VeryRare"
+data "DefaultBoosts" "ItemReturnToOwner();WeaponProperty(Magical);IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(5)"
+data "Weapon Group" "MartialMeleeWeapon"
+data "Weapon Properties" "Finesse;Light;Melee;Dippable;Magical"
+data "Proficiency Group" "Longswords;MartialWeapons"
+data "Unique" "1"
+data "PassivesOnEquip" "ELDER_BloodWeapon_Desc1;ELDER_BloodWeapon_Desc2;ELDER_BloodWeapon_Desc3"
+data "PassivesMainHand" "ELDER_MeleeStance_Passive;ELDER_SoulsTormentCatch"
+data "StatusOnEquip" "ELDER_MAINHANDATTACK_Melee_Blood;ELDER_RemoveSoulsTorment;ELDER_BloodStatusWeapon_Empty"
+data "WeaponFunctors" "ApplyStatus(ELDER_Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+
+// - - - - - - - - - -
+// Bloodreaver's Edge \\
+// - - - - - - - - - -
+
+new entry "ELDER_Weapon_BloodreaversEdge"
+type "Weapon"
+using "_BaseWeapon"
+data "RootTemplate" "b2c3d4e5-f6a7-4b6c-0d9e-8f7a6b5c4d3e"
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Damage Type" "Force"
+data "Damage" "1d8"
+data "VersatileDamage" "1d10"
+data "ValueScale" "1"
+data "Weight" "1.35"
+data "Rarity" "VeryRare"
+data "DefaultBoosts" "ItemReturnToOwner();WeaponProperty(Magical);IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(5)"
+data "Weapon Group" "MartialMeleeWeapon"
+data "Weapon Properties" "Versatile;Finesse;Melee;Dippable;Magical"
+data "Proficiency Group" "Longswords;MartialWeapons"
+data "Unique" "1"
+data "PassivesOnEquip" "ELDER_BloodWeapon_Desc1;ELDER_BloodWeapon_Desc2;ELDER_BloodWeapon_Desc3"
+data "PassivesMainHand" "ELDER_MeleeStance_Passive;ELDER_SoulsTormentCatch"
+data "StatusOnEquip" "ELDER_MAINHANDATTACK_Melee_Blood;ELDER_RemoveSoulsTorment;ELDER_BloodStatusWeapon_Empty"
+data "WeaponFunctors" "ApplyStatus(ELDER_Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+
+// - - - - - - - - - -
+// Soulcrusher \\
+// - - - - - - - - - -
+
+new entry "ELDER_Weapon_Soulcrusher"
+type "Weapon"
+using "_BaseWeapon"
+data "RootTemplate" "c3d4e5f6-a7b8-4c7d-1e0f-9a8b7c6d5e4f"
+data "ValueUUID" "81764c3c-c7a9-49a7-b145-d31ffd5aebe1"
+data "Damage Type" "Force"
+data "Damage" "2d8"
+data "ValueScale" "1"
+data "Weight" "3.0"
+data "Rarity" "VeryRare"
+data "DefaultBoosts" "ItemReturnToOwner();WeaponProperty(Magical);IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(5)"
+data "Weapon Group" "MartialMeleeWeapon"
+data "Weapon Properties" "Twohanded;Heavy;Melee;Dippable;Magical"
+data "Proficiency Group" "Greatswords;MartialWeapons"
+data "Unique" "1"
+data "PassivesOnEquip" "ELDER_BloodWeapon_Desc1;ELDER_BloodWeapon_Desc2;ELDER_BloodWeapon_Desc3"
+data "PassivesMainHand" "ELDER_MeleeStance_Passive;ELDER_SoulsTormentCatch"
+data "StatusOnEquip" "ELDER_MAINHANDATTACK_Melee_Blood;ELDER_RemoveSoulsTorment;ELDER_BloodStatusWeapon_Empty"
+data "WeaponFunctors" "ApplyStatus(ELDER_Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+
+// - - - - - - - - - -
+// Crimson Duelist \\
+// - - - - - - - - - -
+
+new entry "ELDER_Weapon_CrimsonDuelist"
+type "Weapon"
+using "_BaseWeapon"
+data "RootTemplate" "d4e5f6a7-b8c9-4d8e-2f1a-0b9c8d7e6f5a"
+data "ValueUUID" "71191c11-966f-4c19-b4ee-eb36d31c4944"
+data "Damage Type" "Force"
+data "Damage" "1d8"
+data "ValueScale" "1"
+data "Weight" "0.9"
+data "Rarity" "Rare"
+data "DefaultBoosts" "ItemReturnToOwner();WeaponProperty(Magical);IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(5)"
+data "Weapon Group" "MartialMeleeWeapon"
+data "Weapon Properties" "Finesse;Melee;Dippable;Magical"
+data "Proficiency Group" "Rapiers;MartialWeapons"
+data "Unique" "1"
+data "PassivesOnEquip" "ELDER_BloodWeapon_Desc1;ELDER_BloodWeapon_Desc2;ELDER_BloodWeapon_Desc3"
+data "PassivesMainHand" "ELDER_MeleeStance_Passive;ELDER_SoulsTormentCatch"
+data "StatusOnEquip" "ELDER_MAINHANDATTACK_Melee_Blood;ELDER_RemoveSoulsTorment;ELDER_BloodStatusWeapon_Empty"
+data "WeaponFunctors" "ApplyStatus(ELDER_Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+
+// - - - - - - - - - -
+// Demonic Reaver \\
+// - - - - - - - - - -
+
+new entry "ELDER_Weapon_DemonicReaver"
+type "Weapon"
+using "_BaseWeapon"
+data "RootTemplate" "e5f6a7b8-c9d0-4e9f-3a2b-1c0d9e8f7a6b"
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Damage Type" "Force"
+data "Damage" "2d6"
+data "ValueScale" "1"
+data "Weight" "2.8"
+data "Rarity" "Legendary"
+data "DefaultBoosts" "ItemReturnToOwner();WeaponProperty(Magical);IF(CharacterLevelGreaterThan(0) and not CharacterLevelGreaterThan(4)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(3);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(5)"
+data "Weapon Group" "MartialMeleeWeapon"
+data "Weapon Properties" "Twohanded;Heavy;Melee;Dippable;Magical"
+data "Proficiency Group" "Greatswords;MartialWeapons"
+data "Unique" "1"
+data "PassivesOnEquip" "ELDER_BloodWeapon_Desc1;ELDER_BloodWeapon_Desc2;ELDER_BloodWeapon_Desc3"
+data "PassivesMainHand" "ELDER_MeleeStance_Passive;ELDER_SoulsTormentCatch"
+data "StatusOnEquip" "ELDER_MAINHANDATTACK_Melee_Blood;ELDER_RemoveSoulsTorment;ELDER_BloodStatusWeapon_Empty"
+data "WeaponFunctors" "ApplyStatus(ELDER_Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
