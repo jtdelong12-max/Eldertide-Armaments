@@ -292,4 +292,23 @@
 	<content contentuid="ha79077dbg6fecg4f66gad52g6bd25969b2c6" version="1">Unleash a stinging insult upon a creature, dealing [1] and [2]. The insulted target suffers Disadvantage on its next Attack Roll.</content>
 	<content contentuid="h650d2ce0g5b45g475agb121gd15818c3df00" version="2">Searing Sarcasm</content>
 	<content contentuid="hb3215d3bg78f9g43ccg9f5agfb7f309785a5" version="1">Have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+	<!-- Weapon VFX Localization -->
+	<content contentuid="h5da5cf33g66ecg4272g8000g894328c0af59" version="1">Dawnblade Radiance</content>
+	<content contentuid="h5da5cf33g66ecg4272g8000g894328c0af59" version="2">The blade burns with celestial fire, illuminating the darkness with the fury of dawn.</content>
+	
+	<content contentuid="hb4d0fd4fg d9fag4193ga303g1d970b364ad3" version="1">Celestial Aura</content>
+	<content contentuid="hb4d0fd4fg d9fag4193ga303g1d970b364ad3" version="2">Divine energy emanates from the bow, blessed by the gods of Olympus.</content>
+	
+	<content contentuid="h1fe2a97eg200fg4f4bgab72g8054818f87ea" version="1">Infernal Essence</content>
+	<content contentuid="h1fe2a97eg200fg4f4bgab72g8054818f87ea" version="2">Dark energy writhes around the weapon, a remnant of demonic power.</content>
+	
+	<content contentuid="h267ce8f3ga204g41a1gb05fg338792cf17f4" version="1">Shadow Veil</content>
+	<content contentuid="h267ce8f3ga204g41a1gb05fg338792cf17f4" version="2">The blade is shrouded in swirling shadows from the realm of Morpheus.</content>
+	
+	<content contentuid="he25bcfdfg9365g4959g955dga42864174724" version="1">Excalibur's Light</content>
+	<content contentuid="he25bcfdfg9365g4959g955dga42864174724" version="2">Holy radiance surrounds the legendary blade, a beacon of justice and honor.</content>
+	
+	<content contentuid="hcd50f25eg1d08g40feg960bg1552a18d709a" version="1">Moonlit Aura</content>
+	<content contentuid="hcd50f25eg1d08g40feg960bg1552a18d709a" version="2">Ethereal moonlight flows along the blade's edge, shimmering with lunar power.</content>
 </contentList>
