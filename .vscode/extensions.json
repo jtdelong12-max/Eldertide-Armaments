@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ghostboats.bg3-mod-helper",
+    "chromosome16.bg3-text-support",
+    "fierrof.bg3txt-formatter",
+    "fallenstar.bg3guidinfos",
+    "fallenstar.bg3-se-snippets",
+    "redhat.vscode-xml",
+    "github.copilot",
+    "github.copilot-chat"
+  ],
+  "unwantedRecommendations": []
+}

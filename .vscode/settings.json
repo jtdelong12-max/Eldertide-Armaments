@@ -1,52 +1,125 @@
 {
-  // BG3 Mod Helper Configuration
+  // ============================================
+  // BG3 MOD HELPER (ghostboats.bg3-mod-helper)
+  // ============================================
   "bg3ModHelper.modName": "EldertideArmament",
   "bg3ModHelper.modUUID": "22b848d1-5fff-4f76-a4f8-8461721e6112",
   "bg3ModHelper.authorName": "Proxeuz",
   "bg3ModHelper.modDescription": "Proxeuz's rings and amulets collection.",
-  
-  // Path to localization files
   "bg3ModHelper.localizationPath": "${workspaceFolder}/EldertideArmament/Localization/English",
-  
-  // Path to mod root
   "bg3ModHelper.modPath": "${workspaceFolder}/EldertideArmament",
-  
-  // Auto-update .loca.xml files when generating new handles
   "bg3ModHelper.autoUpdateLocalization": true,
   
-  // File associations for BG3 files
+  // ============================================
+  // BG3 TEXT SUPPORT & FORMATTER
+  // (chromosome16.bg3-text-support + fierrof.bg3txt-formatter)
+  // ============================================
   "files.associations": {
     "*.lsx": "xml",
     "*.loca": "xml",
     "*.loca.xml": "xml",
     "*.txt": "bg3txt"
-},
+  },
   
-  // Editor settings for BG3 mod files
-  "editor.formatOnSave": false,
+  // BG3 TXT Formatter settings
+  "bg3txtFormatter.enable": true,
+  "bg3txtFormatter.indentSize": 4,
+  "bg3txtFormatter.alignData": true,
+  
+  // ============================================
+  // BG3 GUID INFOS (fallenstar.bg3guidinfos)
+  // ============================================
+  // Shows information about GUIDs when hovering
+  "bg3guidinfos.enable": true,
+  "bg3guidinfos.bg3DataPath": "",  // Set to your BG3 installation path if needed
+  
+  // ============================================
+  // EDITOR SETTINGS FOR BG3 FILES
+  // ============================================
+  "editor.formatOnSave": false,  // Disable auto-format to prevent XML corruption
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  
+  // XML-specific settings (for .lsx and .loca files)
   "[xml]": {
-    "editor.defaultFormatter": "vscode.xml"
-},
-"editor.tokenColorCustomizations": {
+    "editor.defaultFormatter": "vscode.xml",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false
+  },
+  
+  // BG3 TXT file settings
+  "[bg3txt]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  
+  // ============================================
+  // SYNTAX HIGHLIGHTING CUSTOMIZATION
+  // ============================================
+  "editor.tokenColorCustomizations": {
     "textMateRules": [
-        {
-            "scope": "keyword.control.bg3txt",
-            "settings": {
-                "foreground": "#C586C0"
-            }
-        },
-        {
-            "scope": "keyword.operator.bg3txt",
-            "settings": {
-                "foreground": "#ffa200"
-            }
-        },
-        {
-            "scope": "string.first-column.bg3txt",
-            "settings": {
-                "foreground": "#9CDCFE"
-            }
+      {
+        "scope": "keyword.control.bg3txt",
+        "settings": {
+          "foreground": "#C586C0"
         }
+      },
+      {
+        "scope": "keyword.operator.bg3txt",
+        "settings": {
+          "foreground": "#ffa200"
+        }
+      },
+      {
+        "scope": "string.first-column.bg3txt",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      },
+      {
+        "scope": "entity.name.type.bg3txt",
+        "settings": {
+          "foreground": "#4EC9B0"
+        }
+      },
+      {
+        "scope": "comment.line.bg3txt",
+        "settings": {
+          "foreground": "#6A9955",
+          "fontStyle": "italic"
+        }
+      }
     ]
-}
+  },
+  
+  // ============================================
+  // SEARCH & FILES SETTINGS
+  // ============================================
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/tools/Packed": true
+  },
+  
+  "files.exclude": {
+    "**/.git": true
+  },
+  
+  // ============================================
+  // GITHUB COPILOT SETTINGS (OPTIONAL)
+  // ============================================
+  "github.copilot.enable": {
+    "*": true,
+    "xml": false,
+    "bg3txt": true,
+    "markdown": true
+  }
 }

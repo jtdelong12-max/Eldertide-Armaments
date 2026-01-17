@@ -1,0 +1,138 @@
+{
+  // BG3 Modding Code Snippets
+  // These snippets work with the BG3 SE Snippets extension and custom additions
+  
+  "BG3 LSX Attribute": {
+    "scope": "xml",
+    "prefix": "attr",
+    "body": [
+      "<attribute id=\"${1:name}\" type=\"${2|FixedString,LSString,int32,uint8,int64,float,guid,bool|}\" value=\"${3:value}\" />"
+    ],
+    "description": "BG3 LSX attribute element"
+  },
+  
+  "BG3 LSX Node": {
+    "scope": "xml",
+    "prefix": "node",
+    "body": [
+      "<node id=\"${1:NodeName}\">",
+      "\t$0",
+      "</node>"
+    ],
+    "description": "BG3 LSX node element"
+  },
+  
+  "BG3 TXT Entry": {
+    "scope": "bg3txt",
+    "prefix": "entry",
+    "body": [
+      "new entry \"${1:EntryName}\"",
+      "type \"${2|Armor,Weapon,Object,Character,Potion,StatusData,PassiveData,SpellData,Interrupt|}\"",
+      "using \"${3:BaseTemplate}\"",
+      "data \"${4:Property}\" \"${5:Value}\"",
+      "$0"
+    ],
+    "description": "BG3 TXT stats entry"
+  },
+  
+  "BG3 TXT Data Line": {
+    "scope": "bg3txt",
+    "prefix": "data",
+    "body": [
+      "data \"${1:Property}\" \"${2:Value}\""
+    ],
+    "description": "BG3 TXT data line"
+  },
+  
+  "BG3 Status Entry": {
+    "scope": "bg3txt",
+    "prefix": "status",
+    "body": [
+      "new entry \"${1:StatusName}\"",
+      "type \"StatusData\"",
+      "data \"StatusType\" \"${2|BOOST,DAMAGE,HEAL,POLYMORPHED,CONSUME|}\"",
+      "data \"DisplayName\" \"${3:h_handle}\"",
+      "data \"Description\" \"${4:h_handle}\"",
+      "data \"Icon\" \"${5:IconName}\"",
+      "$0"
+    ],
+    "description": "BG3 Status entry"
+  },
+  
+  "BG3 Spell Entry": {
+    "scope": "bg3txt",
+    "prefix": "spell",
+    "body": [
+      "new entry \"${1:SpellName}\"",
+      "type \"SpellData\"",
+      "data \"SpellType\" \"${2|Target,Projectile,Shout,Zone,Throw|}\"",
+      "data \"Level\" \"${3:0}\"",
+      "data \"SpellSchool\" \"${4|Abjuration,Conjuration,Divination,Enchantment,Evocation,Illusion,Necromancy,Transmutation|}\"",
+      "data \"TargetRadius\" \"${5:1.5}\"",
+      "data \"Icon\" \"${6:IconName}\"",
+      "data \"DisplayName\" \"${7:h_handle}\"",
+      "data \"Description\" \"${8:h_handle}\"",
+      "$0"
+    ],
+    "description": "BG3 Spell entry"
+  },
+  
+  "BG3 Passive Entry": {
+    "scope": "bg3txt",
+    "prefix": "passive",
+    "body": [
+      "new entry \"${1:PassiveName}\"",
+      "type \"PassiveData\"",
+      "data \"DisplayName\" \"${2:h_handle}\"",
+      "data \"Description\" \"${3:h_handle}\"",
+      "data \"Icon\" \"${4:IconName}\"",
+      "data \"Properties\" \"${5|IsHidden,Highlighted,OncePerTurn|}\"",
+      "$0"
+    ],
+    "description": "BG3 Passive entry"
+  },
+  
+  "BG3 Armor Entry": {
+    "scope": "bg3txt",
+    "prefix": "armor",
+    "body": [
+      "new entry \"${1:ArmorName}\"",
+      "type \"Armor\"",
+      "using \"${2:_Ring_Magic}\"",
+      "data \"RootTemplate\" \"${3:uuid}\"",
+      "data \"ObjectCategory\" \"${4|Jewelry,LightArmor,MediumArmor,HeavyArmor|}\"",
+      "data \"ValueOverride\" \"${5:100}\"",
+      "data \"Rarity\" \"${6|Common,Uncommon,Rare,VeryRare,Legendary|}\"",
+      "$0"
+    ],
+    "description": "BG3 Armor/Jewelry entry"
+  },
+  
+  "BG3 Localization Entry": {
+    "scope": "xml",
+    "prefix": "loca",
+    "body": [
+      "<content contentuid=\"${1:handle}\" version=\"${2:1}\">",
+      "\t$0",
+      "</content>"
+    ],
+    "description": "BG3 Localization content entry"
+  },
+  
+  "BG3 Root Template": {
+    "scope": "xml",
+    "prefix": "roottemplate",
+    "body": [
+      "<node id=\"GameObjects\">",
+      "\t<attribute id=\"DisplayName\" type=\"TranslatedString\" handle=\"${1:h_handle}\" version=\"1\" />",
+      "\t<attribute id=\"LevelName\" type=\"FixedString\" value=\"${2:LevelName}\" />",
+      "\t<attribute id=\"MapKey\" type=\"FixedString\" value=\"${3:uuid}\" />",
+      "\t<attribute id=\"Name\" type=\"LSString\" value=\"${4:Name}\" />",
+      "\t<attribute id=\"Stats\" type=\"FixedString\" value=\"${5:StatsName}\" />",
+      "\t<attribute id=\"Type\" type=\"FixedString\" value=\"item\" />",
+      "\t$0",
+      "</node>"
+    ],
+    "description": "BG3 Root Template GameObject"
+  }
+}
